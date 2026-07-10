@@ -1,6 +1,8 @@
 package Binary_Search;
 import java.util.Scanner;
 public class First_and_Last_Occurrences_in_Array {
+	// <<< Via Linear Search >>>> 
+	/*
 	public static void main(String[]args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the size: ");
@@ -28,6 +30,44 @@ public class First_and_Last_Occurrences_in_Array {
 			}
 		}
 		System.out.println("First Occurrence: "+first);
+		System.out.println("Second Occurrence: "+ last);
+	}
+	 */
+	
+	// <<<<<< Better Way ( Two Linear Search ) >>>>>>>>>>
+	// for 1st Occurrence = search from left 
+	// for 2nd = search from last 
+	
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Size: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		System.out.println("Enter Sorted Array: ");
+		
+		for(int i=0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		System.out.println("enter targe: ");
+		int x = sc.nextInt();
+		
+		int first = -1; 
+		int last = -1; 
+		
+		for(int i=0; i<n; i++) {
+			if(arr[i] == x) {
+				first = i; 
+				break;
+			}
+		}
+		for(int i=n-1; i>=0; i--) {
+			if(arr[i] == x) {
+				last = i; 
+				break; 
+			}
+		}
+		System.out.println("First Occurrence: "+ first);
 		System.out.println("Second Occurrence: "+ last);
 	}
 
