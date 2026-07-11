@@ -74,6 +74,7 @@ public class First_and_Last_Occurrences_in_Array {
 	*/
 	
 	// <<<<<< Optimal way (Binary Search) >>>>>>>
+	// Function for First Occurrence 
 	
 	static int firstOccurrence(int[]arr, int x) {
 		int low = 0; 
@@ -94,6 +95,32 @@ public class First_and_Last_Occurrences_in_Array {
 			}
 		}
 		 return ans ; 
+	}
+	
+	// Function for Last Occurrence 
+	
+	static int lastOccurrence(int[] arr, int x) {
+		int low = 0; 
+		int high = arr.length-1; 
+		int ans = -1; 
+		while(low <= high) {
+			int mid = low + (high - low)/2;
+			
+			if(arr[mid] == x) {
+				ans = mid ; 
+				low = mid + 1; 
+			}
+			else if(arr[mid] < x) {
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
+		}
+		return ans; 
+	}
+	public static void main(String[] args) {
+		
 	}
 
 }
