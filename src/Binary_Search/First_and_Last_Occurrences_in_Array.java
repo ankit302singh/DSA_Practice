@@ -38,6 +38,7 @@ public class First_and_Last_Occurrences_in_Array {
 	// for 1st Occurrence = search from left 
 	// for 2nd = search from last 
 	
+/*	
 	public static void main(String[]args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter Size: ");
@@ -69,6 +70,30 @@ public class First_and_Last_Occurrences_in_Array {
 		}
 		System.out.println("First Occurrence: "+ first);
 		System.out.println("Second Occurrence: "+ last);
+	}
+	*/
+	
+	// <<<<<< Optimal way (Binary Search) >>>>>>>
+	
+	static int firstOccurrence(int[]arr, int x) {
+		int low = 0; 
+		int high = arr.length - 1; 
+		int ans = -1; 
+		
+		while(low <= high) {
+			int mid = low + (high-low)/2 ;
+			if(arr[mid] == x) {
+				ans = mid ; 
+				high = mid - 1; 
+			}
+			else if(arr[mid] < x) {
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
+		}
+		 return ans ; 
 	}
 
 }
