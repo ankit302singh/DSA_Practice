@@ -120,7 +120,25 @@ public class First_and_Last_Occurrences_in_Array {
 		return ans; 
 	}
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter size: ");
+		int n = sc.nextInt();
 		
+		int[] arr= new int[n];
+		
+		System.out.println("enter sorted Array: ");
+		
+		for(int i = 0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		System.out.print("enter target: ");
+		int x = sc.nextInt();
+		
+		int first = firstOccurrence(arr,x);
+		int last = lastOccurrence(arr,x);
+		
+		System.out.println("First Occurrence: " + first);
+		System.out.println("Last Occurrence: " + last);
 	}
 
 }
