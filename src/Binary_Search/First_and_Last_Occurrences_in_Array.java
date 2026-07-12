@@ -126,7 +126,7 @@ public class First_and_Last_Occurrences_in_Array {
 		
 		int[] arr= new int[n];
 		
-		System.out.println("enter sorted Array: ");
+		System.out.print("enter sorted Array: ");
 		
 		for(int i = 0; i<n; i++) {
 			arr[i] = sc.nextInt();
