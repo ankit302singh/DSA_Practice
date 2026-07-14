@@ -111,4 +111,50 @@ public class Count_Occurrence {
 		}
 		return ans; 
 	}
+	
+	public static int lastOccurrence(int[]arr, int x) {
+		int low = 0; 
+		int high = arr.length -1; 
+		int ans = -1; 
+		
+		while(low <= high) {
+			int mid = low + (high - low)/2;
+			if(arr[mid]==x) {
+				ans = mid; 
+				low = mid + 1; 
+			}
+			else if(arr[mid] < x) {
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
+		}
+		return ans; 
+	}
+	public static int countOccurrence(int[]arr, int x) {
+		int first = firstOccurrence(arr,x);
+		if(first == -1)
+			return 0; 
+		
+		int last = lastOccurrence(arr, x);
+		return last - first + 1; 
+	}
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter array size: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		System.out.println("Enter sorted array: ");
+		for(int i=0; i<n; i++) {
+			arr[i] = sc.nextInt();
+			
+			System.out.println("enter element: ");
+			int x = sc.nextInt();
+			
+			System.out.println("Occurrence: " + countOccurrence(arr, x));
+		}
+		
+	}
 }
