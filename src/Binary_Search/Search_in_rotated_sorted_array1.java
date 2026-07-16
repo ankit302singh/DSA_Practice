@@ -138,6 +138,11 @@ public class Search_in_rotated_sorted_array1 {
 		for(int i=0; i<n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		System.out.println("Enter target: ");
+		int target = sc.nextInt();
 		
+		int ans = search(arr, target);
+		
+		System.out.println("Target Index: " + ans);
 	}
 }
