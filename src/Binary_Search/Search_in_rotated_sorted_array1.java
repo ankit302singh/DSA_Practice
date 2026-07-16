@@ -63,4 +63,13 @@ public class Search_in_rotated_sorted_array1 {
 		}
 		 return -1; 
 	}
+	
+	public static int search(int[] arr, int target) {
+		int pivot = findPivot(arr);
+		
+		if(target >= arr[pivot] && target <= arr[arr.length - 1]) {
+			return binarySearch(arr, pivot, arr.length -1, target);
+		}
+		return binarySearch(arr, 0, pivot -1, target);
+	}
 }
