@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.Scanner;
 
 public class Search_Rotated_Array_2 {
+	/*
 	//<<<< Via Linear Search >>>>
 	public static boolean search(int[] arr, int target) {
 		for(int i=0; i<arr.length-1; i++) {
@@ -31,6 +32,22 @@ public class Search_Rotated_Array_2 {
 		System.out.println(ans);
 		
 		sc.close();
+	}
+	*/ 
+	
+	// <<<< Better Way >>>
+	
+	public static boolean search(int[] arr, int target) {
+		int low = 0; 
+		int high = arr.length - 1; 
+		while(low <= high) {
+			int mid = low + (high - low)/2;
+			
+			if(arr[mid] == target) {
+				return true; 
+			}
+		}
+		return false; 
 	}
 
 }
