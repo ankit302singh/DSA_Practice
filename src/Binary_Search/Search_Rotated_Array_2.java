@@ -83,6 +83,12 @@ public class Search_Rotated_Array_2 {
 		for(int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		System.out.print("enter target: ");
+		int target = sc.nextInt();
+		
+		System.out.println(search(arr,target));
+		
+		sc.close();
 	}
 
 }
