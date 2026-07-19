@@ -46,6 +46,19 @@ public class Search_Rotated_Array_2 {
 			if(arr[mid] == target) {
 				return true; 
 			}
+			if(arr[low] == arr[mid] && arr[mid] == arr[high]) {
+				low++; 
+				high--; 
+				continue; 
+			}
+			if(arr[low] <= arr[mid]) {
+				if(target >= arr[low] && target < arr[mid]) {
+					high = mid - 1; 
+				}
+				else {
+					low = mid + 1; 
+				}
+			}
 		}
 		return false; 
 	}
