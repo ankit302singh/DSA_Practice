@@ -37,11 +37,12 @@ public class Minimun_in_Sorted_Array {
 		int high = arr.length - 1; 
 		
 		int ans = Integer.MAX_VALUE ; 
+		
 		while(low <= high) {
 			int mid = low + (high - low)/2; 
 			
 			if(arr[low] <= arr[mid]) {
-				ans = Math.min(ans, arr[mid]);
+				ans = Math.min(ans, arr[low]);
 				low = mid + 1; 
 			}
 			else {
@@ -63,6 +64,7 @@ public class Minimun_in_Sorted_Array {
 		for(int i=0; i<n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		System.out.println("Minimum = " + findMin(arr));
 	}
 
 }
