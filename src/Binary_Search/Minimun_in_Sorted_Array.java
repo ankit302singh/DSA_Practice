@@ -1,4 +1,5 @@
 package Binary_Search;
+import java.util.Scanner; 
 
 public class Minimun_in_Sorted_Array {
 	public static int findMin(int[] arr) {
@@ -10,6 +11,20 @@ public class Minimun_in_Sorted_Array {
 			}
 		}
 		return min; 
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter size: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		System.out.println("Enter elements: ");
+		
+		for(int i=0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		System.out.println("Minimum Element: " + findMin(arr));
 	}
 
 }
