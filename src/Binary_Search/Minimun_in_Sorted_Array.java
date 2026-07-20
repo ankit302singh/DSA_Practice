@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.Scanner; 
 
 public class Minimun_in_Sorted_Array {
+	/*
 	public static int findMin(int[] arr) {
 		int min = arr[0];
 		
@@ -25,6 +26,26 @@ public class Minimun_in_Sorted_Array {
 			arr[i] = sc.nextInt();
 		}
 		System.out.println("Minimum Element: " + findMin(arr));
+	}
+	
+	*/
+	
+	// <<< Optimal Way (Binary Search) >>>
+	
+	public static int findMin(int[] arr) {
+		int low = 0; 
+		int high = arr.length - 1; 
+		
+		int ans = Integer.MAX_VALUE ; 
+		while(low <= high) {
+			int mid = low + (high - low)/2; 
+			
+			if(arr[low] <= arr[mid]) {
+				ans = Math.min(ans, arr[mid]);
+				low = mid + 1; 
+			}
+		}
+		return ans; 
 	}
 
 }
