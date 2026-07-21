@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.Scanner; 
 
 public class How_Many_Times_Array_Rotated {
+	/*
 	public static int countRotations(int[] arr) {
 		int min = arr[0];
 		int index = 0 ; 
@@ -26,5 +27,21 @@ public class How_Many_Times_Array_Rotated {
 		}
 		System.out.println("Array is rotated: " + countRotations(arr) + " times.");
 	}
+	*/
+	
+	// <<<<< Optimal way ( Binary Search) >>>>>
+	
+	public static int countRotations(int[] arr) {
+		int low = 0; 
+		int high = arr.length - 1; 
+		
+		int min = Integer.MIN_VALUE; 
+		int index = 0; 
+		
+		while(low <= high) {
+			
+		}
+		return index; 
+	} 
 
 }
