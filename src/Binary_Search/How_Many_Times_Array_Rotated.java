@@ -42,14 +42,16 @@ public class How_Many_Times_Array_Rotated {
 			int mid = low + (high - low) / 2 ; 
 			
 			if(arr[low] <= arr[mid]) {
+				
 				if(arr[low] < min) {
 					min = arr[low];
 					index = low; 
 				}
+				
 				low = mid + 1; 
 			}
 			else {
-				if(arr[mid] <= min) {
+				if(arr[mid] < min) {
 					min = arr[mid];
 					index = mid; 
 				}
@@ -60,8 +62,18 @@ public class How_Many_Times_Array_Rotated {
 	} 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("Enter size: ");
 		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		
+		System.out.println("Enter array: ");
+		
+		for(int i =0 ; i<n ; i++) {
+			arr[i] = sc.nextInt();
+		}
+		System.out.println("Array is rotated: "+ countRotations(arr)+" times");
 	}
 
 }
