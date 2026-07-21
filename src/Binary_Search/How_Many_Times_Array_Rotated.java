@@ -58,5 +58,10 @@ public class How_Many_Times_Array_Rotated {
 		}
 		return index; 
 	} 
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter size: ");
+		int n = sc.nextInt();
+	}
 
 }
