@@ -39,7 +39,15 @@ public class How_Many_Times_Array_Rotated {
 		int index = 0; 
 		
 		while(low <= high) {
+			int mid = low + (high - low) / 2 ; 
 			
+			if(arr[low] <= arr[mid]) {
+				if(arr[low] < min) {
+					min = arr[low];
+					index = low; 
+				}
+				low = mid + 1; 
+			}
 		}
 		return index; 
 	} 
