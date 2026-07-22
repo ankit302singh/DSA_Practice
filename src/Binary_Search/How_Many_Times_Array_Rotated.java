@@ -50,7 +50,9 @@ public class How_Many_Times_Array_Rotated {
 				
 				low = mid + 1; 
 			}
+			
 			else {
+				
 				if(arr[mid] < min) {
 					min = arr[mid];
 					index = mid; 
@@ -74,6 +76,9 @@ public class How_Many_Times_Array_Rotated {
 			arr[i] = sc.nextInt();
 		}
 		System.out.println("Array is rotated: "+ countRotations(arr)+" times");
+		
+		sc.close();
 	}
+	
 
 }
