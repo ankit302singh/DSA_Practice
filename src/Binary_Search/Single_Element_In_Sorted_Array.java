@@ -32,9 +32,16 @@ public class Single_Element_In_Sorted_Array {
 	
 	public static int singleElement(int[] arr) {
 		int xor = 0; 
-		
+		for(int num : arr) {
+			xor ^= num; 
+		}
 		return xor; 
 	}
-	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter size: ");
+		int n = sc.nextInt();
+	}
 
 }
