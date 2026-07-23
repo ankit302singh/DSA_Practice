@@ -98,6 +98,12 @@ public class Single_Element_In_Sorted_Array {
 		
 		int[] arr = new int[n];
 		
+		System.out.println("Enter Sorted Array: ");
+		
+		for(int i=0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		System.out.println("Single Element = "+ singleElement(arr));
 	}
 
 }
