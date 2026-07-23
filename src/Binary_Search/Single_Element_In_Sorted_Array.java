@@ -29,7 +29,8 @@ public class Single_Element_In_Sorted_Array {
 	*/
 	
 	// <<<<< better Option (Using XOR) >>>>>
-	
+	/*
+	 
 	public static int singleElement(int[] arr) {
 		int xor = 0; 
 		for(int num : arr) {
@@ -51,6 +52,22 @@ public class Single_Element_In_Sorted_Array {
 			arr[i] = sc.nextInt();
 		}
 		System.out.println("Single element: "+ singleElement(arr));
+	}
+	*/
+	
+	// <<< Optimal way (Binary Search) >>>>
+	
+	public static int singleElement(int[] arr) {
+		int n = arr.length; 
+		
+		if(n==1)
+			return arr[0];
+		
+		if(arr[0] != arr[1])
+			return arr[0];
+		
+		
+		return -1; 
 	}
 
 }
