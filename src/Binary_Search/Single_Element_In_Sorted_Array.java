@@ -90,5 +90,14 @@ public class Single_Element_In_Sorted_Array {
 		}
 		return -1; 
 	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter size: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		
+	}
 
 }
