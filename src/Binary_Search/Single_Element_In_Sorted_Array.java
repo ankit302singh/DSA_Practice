@@ -66,7 +66,16 @@ public class Single_Element_In_Sorted_Array {
 		if(arr[0] != arr[1])
 			return arr[0];
 		
+		if(arr[n-1] != arr[n-2]) {
+			return arr[n-1];
+		}
 		
+		int low = 1; 
+		int high = n-2; 
+		
+		while(low <= high) {
+			int mid = low + (high-low)/2;
+		}
 		return -1; 
 	}
 
