@@ -1,4 +1,5 @@
 package Binary_Search;
+import java.util.Scanner; 
 
 public class Find_Peak_Element {
 	public static int findPeak(int[] arr) {
@@ -15,7 +16,27 @@ public class Find_Peak_Element {
 				return i; 
 			}
 		}
+		if(arr[n-1] >= arr[n-2])
+			return n-1; 
 		return -1; 
+	}
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter size: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		
+		System.out.println("Enter element: ");
+		
+		for(int i=0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		int index = findPeak(arr);
+		
+		System.out.println("Peak Index: " + index);
+		System.out.println("Peak element: " + arr[index]);
+		
 	}
 
 }
