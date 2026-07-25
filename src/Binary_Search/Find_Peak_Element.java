@@ -53,5 +53,15 @@ public class Find_Peak_Element {
 		}
 		return -1; 
 	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Size: ");
+		int n = sc.nextInt();
+		
+		int[] arr = new int[n];
+		
+		System.out.println("Enter Element: ");
+	}
 
 }
