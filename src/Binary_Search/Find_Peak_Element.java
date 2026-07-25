@@ -106,6 +106,11 @@ public class Find_Peak_Element {
 			arr[i] = sc.nextInt();
 		}
 		int index = findPeak(arr);
+		
+		System.out.println("Peak Index: " + index);
+		System.out.println("Peak element: " + arr[index]);
+		
+		sc.close();
 	}
 
 }
