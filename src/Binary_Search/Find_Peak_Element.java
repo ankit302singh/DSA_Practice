@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.Scanner; 
 
 public class Find_Peak_Element {
+	/*
 	public static int findPeak(int[] arr) {
 		int n = arr.length; 
 		
@@ -37,6 +38,15 @@ public class Find_Peak_Element {
 		System.out.println("Peak Index: " + index);
 		System.out.println("Peak element: " + arr[index]);
 		
+	}
+	*/
+	// <<<< Better Approach >>>>
+	public static int findPeak(int[] arr) {
+		int n = arr.length; 
+		for(int i=0; i<n; i++) {
+			
+		}
+		return -1; 
 	}
 
 }
