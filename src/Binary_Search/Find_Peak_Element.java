@@ -88,8 +88,17 @@ public class Find_Peak_Element {
 			if(arr[mid] < arr[mid + 1]) {
 				low = mid + 1; 
 			}
+			else {
+				high = mid; 
+			}
 		}
 		return low; 
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("enter size: ");
+		int n = sc.nextInt();
 	}
 
 }
