@@ -62,6 +62,17 @@ public class Find_Peak_Element {
 		int[] arr = new int[n];
 		
 		System.out.println("Enter Element: ");
+		
+		for(int i=0; i<n; i++) 
+			arr[i] = sc.nextInt();
+			
+			int index = findPeak(arr);
+			
+			System.out.println("Peak Index: " + index);
+			System.out.println("Peak Element: " + arr[index]);
+			
+			sc.close();
+		
 	}
 
 }
