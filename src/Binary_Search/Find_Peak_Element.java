@@ -41,6 +41,7 @@ public class Find_Peak_Element {
 	}
 	*/
 	// <<<< Better Approach >>>>
+	/*
 	public static int findPeak(int[] arr) {
 		int n = arr.length; 
 		for(int i=0; i<n; i++) {
@@ -73,6 +74,13 @@ public class Find_Peak_Element {
 			
 			sc.close();
 		
+	}
+	*/
+	
+	// <<<< Optimal way (binary Search) 
+	public static int findPeak(int[] arr) {
+		int low = 0; 
+		return low; 
 	}
 
 }
