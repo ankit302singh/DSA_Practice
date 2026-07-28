@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.Scanner;
 
 public class Square_Root_of_Number {
+	/*
      public static int squareRoot(int n) {
     	 int ans = 0; 
     	 for(int i=1; i<=n; i++) {
@@ -23,5 +24,16 @@ public class Square_Root_of_Number {
     	 System.out.println("Square root: " + squareRoot(n));
     	 
     	 sc.close();
+    	
      }
+     */
+	// <<< better way (Binary Search) >>>
+	
+	public static int squareRoot(int n) {
+		int low = 1; 
+		int high = n; 
+		int ans = 0; 
+		
+		return ans; 
+	}
 }
