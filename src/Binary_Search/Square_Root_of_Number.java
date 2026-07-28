@@ -40,6 +40,13 @@ public class Square_Root_of_Number {
 			if(square == n) {
 				return mid; 
 			}
+			else if(square < n) {
+				ans = mid ; 
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
 		}
 		return ans; 
 	}
