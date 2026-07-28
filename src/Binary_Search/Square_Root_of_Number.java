@@ -33,7 +33,14 @@ public class Square_Root_of_Number {
 		int low = 1; 
 		int high = n; 
 		int ans = 0; 
-		
+		while (low <= high) {
+			int mid = low + (high - low )/ 2; 
+			long square = (long) mid * mid ; 
+			
+			if(square == n) {
+				return mid; 
+			}
+		}
 		return ans; 
 	}
 }
