@@ -28,6 +28,7 @@ public class Square_Root_of_Number {
      }
      */
 	// <<< better way (Binary Search) >>>
+	/*
 	
 	public static int squareRoot(int n) {
 		int low = 1; 
@@ -60,6 +61,17 @@ public class Square_Root_of_Number {
 		System.out.println("Square Root: " + squareRoot(n));
 		
 		sc.close();
+	}
+	*/
+	
+	// <<<< Optimal Way ( Newton-Raphson Method ) >>>>
+	
+	public static int squareRoot(int n) {
+		if(n == 0 || n == 1) {
+			return n; 
+		}
+		double x = n; 
+		return (int)x; 
 	}
 	
 }
