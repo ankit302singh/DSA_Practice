@@ -71,6 +71,10 @@ public class Square_Root_of_Number {
 			return n; 
 		}
 		double x = n; 
+		
+		while(Math.abs(x-n/x) > 0.000001) {
+			x = (x + n / x) / 2 ; 
+		}
 		return (int)x; 
 	}
 	
