@@ -9,12 +9,15 @@ public class Find_Nth_root_of_Number {
 		}
 		return result; 
 	}
-	public static void nthRoot(int n, int m) {
+	public static int nthRoot(int n, int m) {
 		for(int i = 1; i <= m; i++) {
 			long value = power(i, n);
 			
-			
+			if(value == m) {
+				return i; 
+			}
 		}
+		return -1; 
 	}
 
 }
