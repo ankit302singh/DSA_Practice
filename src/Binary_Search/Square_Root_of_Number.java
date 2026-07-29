@@ -81,6 +81,12 @@ public class Square_Root_of_Number {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter Number: ");
+		
+		int n = sc.nextInt();
+		
+		System.out.println("Square Root = " + squareRoot(n));
+		
+		sc.close();
 	}
 	
 }
