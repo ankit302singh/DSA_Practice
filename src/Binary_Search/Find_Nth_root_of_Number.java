@@ -7,7 +7,14 @@ public class Find_Nth_root_of_Number {
 		for(int i = 1; i <= exponent; i++) {
 			result *= base; 
 		}
-		return - 1; 
+		return result; 
+	}
+	public static void nthRoot(int n, int m) {
+		for(int i = 1; i <= m; i++) {
+			long value = power(i, n);
+			
+			
+		}
 	}
 
 }
