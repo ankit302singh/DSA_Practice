@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.Scanner;
 
 public class Find_Nth_root_of_Number {
+	/*
 	public static long power(int base, int exponent) {
 		long result = 1; 
 		
@@ -32,5 +33,12 @@ public class Find_Nth_root_of_Number {
 		System.out.println("Nth Root: " + nthRoot(n,m));
 		sc.close();
 	}
-
+    */
+	
+	// <<<< Better Way ( Using Math.pow ) >>>> 
+	
+	public static int nthRoot(int n, int m) {
+		int root = (int) Math.round(Math.pow(m, 1.0/n));
+		return -1; 
+	}
 }
