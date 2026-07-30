@@ -63,7 +63,15 @@ public class Find_Nth_root_of_Number {
 	// <<<< Optimal Way (Binary Search ) >>>>
 	
 	public static long power(int base, int exponent) {
+		long result = 1; 
 		
+		for(int i = 1; i <= exponent; i++) {
+			result *= base ; 
+			
+			if(result > Integer.MAX_VALUE) {
+				return result; 
+			}
+		}
 		return -1; 
 	}
 }
