@@ -39,6 +39,14 @@ public class Find_Nth_root_of_Number {
 	
 	public static int nthRoot(int n, int m) {
 		int root = (int) Math.round(Math.pow(m, 1.0/n));
+		
+		if(Math.pow(root, n) == m) {
+			return root; 
+		}
 		return -1; 
 	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	}
+	
 }
