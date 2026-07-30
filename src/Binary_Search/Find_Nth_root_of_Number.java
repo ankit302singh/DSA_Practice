@@ -36,7 +36,7 @@ public class Find_Nth_root_of_Number {
     */
 	
 	// <<<< Better Way ( Using Math.pow ) >>>> 
-	
+	/*
 	public static int nthRoot(int n, int m) {
 		int root = (int) Math.round(Math.pow(m, 1.0/n));
 		
@@ -58,5 +58,12 @@ public class Find_Nth_root_of_Number {
 		
 		sc.close();
 	}
+	*/
 	
+	// <<<< Optimal Way (Binary Search ) >>>>
+	
+	public static long power(int base, int exponent) {
+		
+		return -1; 
+	}
 }
