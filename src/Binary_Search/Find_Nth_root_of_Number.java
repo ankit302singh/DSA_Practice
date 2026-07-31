@@ -75,7 +75,14 @@ public class Find_Nth_root_of_Number {
 		return result; 
 	}
 	public static int nthRoot(int n, int m) {
+		int low = 1; 
+		int high = m; 
 		
+		while(low <= high) {
+			int mid = low + (high - low) / 2;
+			
+			long value = power(mid, n);
+		}
 		return -1; 
 	}
 }
