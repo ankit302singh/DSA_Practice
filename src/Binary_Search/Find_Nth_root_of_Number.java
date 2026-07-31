@@ -82,6 +82,16 @@ public class Find_Nth_root_of_Number {
 			int mid = low + (high - low) / 2;
 			
 			long value = power(mid, n);
+			
+			if(value == m) {
+				return mid; 
+			}
+			if(value < m) {
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
 		}
 		return -1; 
 	}
