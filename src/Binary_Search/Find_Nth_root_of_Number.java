@@ -103,5 +103,9 @@ public class Find_Nth_root_of_Number {
 		
 		System.out.print("Enter Number: ");
 		int m = sc.nextInt();
+		
+		System.out.println("Nth Root = " + nthRoot(n,m));
+		
+		sc.close();
 	}
 }
