@@ -95,4 +95,13 @@ public class Find_Nth_root_of_Number {
 		}
 		return -1; 
 	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter N: ");
+		int n = sc.nextInt();
+		
+		System.out.print("Enter Number: ");
+		int m = sc.nextInt();
+	}
 }
