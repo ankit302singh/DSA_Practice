@@ -72,6 +72,10 @@ public class Find_Nth_root_of_Number {
 				return result; 
 			}
 		}
+		return result; 
+	}
+	public static int nthRoot(int n, int m) {
+		
 		return -1; 
 	}
 }
