@@ -7,6 +7,14 @@ public class KoKo_Eating_Banana {
     		 if(pile > max)
     			 max = pile; 
     	 }
+    	 
+    	 for(int speed = 1; speed <= max; speed++) {
+    		 int hours = 0; 
+    		 
+    		 for(int pile : piles) {
+    			 
+    		 }
+    	 }
     	 return -1; 
      }
 }
