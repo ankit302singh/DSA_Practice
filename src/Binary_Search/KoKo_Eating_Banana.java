@@ -18,6 +18,9 @@ public class KoKo_Eating_Banana {
     			 return speed; 
     		 }
     	 }
-    	 return -1; 
+    	 return -1; 	
+     }
+     public static void mian(String[] args) {
+    	 int[] piles = {};
      }
 }
