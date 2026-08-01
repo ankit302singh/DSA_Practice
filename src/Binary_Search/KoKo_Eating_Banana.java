@@ -21,6 +21,10 @@ public class KoKo_Eating_Banana {
     	 return -1; 	
      }
      public static void mian(String[] args) {
-    	 int[] piles = {};
+    	 int[] piles = {3,6,7,11};
+    	 
+    	 int k = 8; 
+    	 
+    	 System.out.println("Minimun_Hour : "+ minSpeed(piles,k));
      }
 }
