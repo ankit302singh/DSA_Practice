@@ -12,7 +12,10 @@ public class KoKo_Eating_Banana {
     		 int hours = 0; 
     		 
     		 for(int pile : piles) {
-    			 
+    			 hours += (pile + speed - 1)/ speed;
+    		 }
+    		 if(hours <= k) {
+    			 return speed; 
     		 }
     	 }
     	 return -1; 
