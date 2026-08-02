@@ -52,6 +52,17 @@ public class KoKo_Eating_Banana {
 		}
 		
 		int low = 1; 
+		int high = max; 
+		
+		while (low <= high) {
+			int mid = low + (high - low)/2;
+			
+			int hours = calculateHours(piles, mid);
+			
+			if(hours <= h) {
+				
+			}
+		}
 		return low ; 
 	}
 	
