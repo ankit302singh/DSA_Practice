@@ -70,4 +70,7 @@ public class KoKo_Eating_Banana {
 		return low ; 
 	}
 	
+	public static void main(String[] args) {
+		int[] piles = {3,6,7,11};
+	}
 }
