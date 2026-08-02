@@ -21,15 +21,15 @@ public class KoKo_Eating_Banana {
     	 }
     	 return -1; 	
      }
-     public static void mian(String[] args) {
+     public static void main(String[] args) {
     	 int[] piles = {3,6,7,11};
     	 
     	 int k = 8; 
     	 
     	 System.out.println("Minimun_Hour : "+ minSpeed(piles,k));
      }
-     */
-	
+     
+	*/
 	// <<< Optimal way (Binary Search) >>>
 	
 	public static int calculateHours(int[] piles, int speed) {
@@ -41,6 +41,7 @@ public class KoKo_Eating_Banana {
 		
 		return totalHours; 
 	}
+	
 	
 	public static int minEating(int[] piles, int h) {
 		
@@ -60,7 +61,10 @@ public class KoKo_Eating_Banana {
 			int hours = calculateHours(piles, mid);
 			
 			if(hours <= h) {
-				
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
 			}
 		}
 		return low ; 
