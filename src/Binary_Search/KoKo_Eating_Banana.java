@@ -44,6 +44,14 @@ public class KoKo_Eating_Banana {
 	
 	public static int minEating(int[] piles, int h) {
 		
+		int max = piles[0];
+		
+		for(int pile : piles) {
+			if(pile > max)
+				max = pile; 
+		}
+		
+		int low = 1; 
 		return low ; 
 	}
 	
