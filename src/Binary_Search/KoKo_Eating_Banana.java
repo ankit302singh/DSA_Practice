@@ -43,7 +43,7 @@ public class KoKo_Eating_Banana {
 	}
 	
 	
-	public static int minEating(int[] piles, int h) {
+	public static int minElement(int[] piles, int h) {
 		
 		int max = piles[0];
 		
@@ -72,5 +72,9 @@ public class KoKo_Eating_Banana {
 	
 	public static void main(String[] args) {
 		int[] piles = {3,6,7,11};
+		
+		int h = 8; 
+		
+		System.out.println("Min_Element: "+ minElement(piles,h));
 	}
 }
