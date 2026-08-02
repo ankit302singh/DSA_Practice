@@ -1,6 +1,7 @@
 package Binary_Search;
 
 public class KoKo_Eating_Banana {
+	/*
      public static int minSpeed(int[] piles, int k) {
     	 int max = piles[0];
     	 for(int pile : piles) {
@@ -27,4 +28,14 @@ public class KoKo_Eating_Banana {
     	 
     	 System.out.println("Minimun_Hour : "+ minSpeed(piles,k));
      }
+     */
+	
+	// <<< Optimal way (Binary Search) >>>
+	
+	public static int calculateHours(int[] piles, int speed) {
+		int totalHours = 0; 
+		
+		return totalHours; 
+	}
+	
 }
