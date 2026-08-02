@@ -35,7 +35,16 @@ public class KoKo_Eating_Banana {
 	public static int calculateHours(int[] piles, int speed) {
 		int totalHours = 0; 
 		
+		for(int pile : piles) {
+			totalHours += (pile + speed - 1) / speed; 
+		}
+		
 		return totalHours; 
+	}
+	
+	public static int minEating(int[] piles, int h) {
+		
+		return low ; 
 	}
 	
 }
