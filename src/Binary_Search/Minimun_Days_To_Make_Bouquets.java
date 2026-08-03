@@ -2,7 +2,19 @@ package Binary_Search;
 
 public class Minimun_Days_To_Make_Bouquets {
 	static int countBouquets(int[] bloomDay, int day, int k) {
+		int flowers = 0; 
 		int bouquets = 0; 
+		
+		for(int bloom : bloomDay) {
+			if(bloom <= day) {
+				flowers++ ; 
+			}
+			else {
+				bouquets += flowers / k; 
+				flowers = 0; 
+			}
+		}
+		bouquets += flowers / k; 
 		return bouquets; 
 	}
 
