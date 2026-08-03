@@ -31,7 +31,11 @@ public class Minimun_Days_To_Make_Bouquets {
     	 
     	 for(int day = min; day <= max; day++) {
     		 
+    		 if(countBouquets(bloomDay, day, k ) >= m)
+    			 return day; 
     	 }
     	 return -1; 
      }
+     
+     
 }
