@@ -20,6 +20,13 @@ public class Minimun_Days_To_Make_Bouquets {
      static int minDays(int[] bloomDay, int m, int k) {
     	 if((long)m* k > bloomDay.length)
     		 return -1; 
+    	 
+    	 int min = Integer.MAX_VALUE; 
+    	 int max = Integer.MIN_VALUE; 
+    	 
+    	 for(int day : bloomDay) {
+    		 
+    	 }
     	 return -1; 
      }
 }
