@@ -25,6 +25,11 @@ public class Minimun_Days_To_Make_Bouquets {
     	 int max = Integer.MIN_VALUE; 
     	 
     	 for(int day : bloomDay) {
+    		 min = Math.min(min, day);
+    		 max = Math.max(max, day);
+    	 }
+    	 
+    	 for(int day = min; day <= max; day++) {
     		 
     	 }
     	 return -1; 
