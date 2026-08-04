@@ -54,6 +54,17 @@ public class Minimun_Days_To_Make_Bouquets {
 		int flowers = 0; 
 		int bouquets = 0; 
 		
+		for(int bloom : bloomDay) {
+			if(bloom <= day) {
+				flowers++; 
+				
+				if(flowers == k) {
+					bouquets++; 
+					flowers = 0; 
+				}
+			}
+		}
+		
 		return bouquets >= m; 
 	}
 }
