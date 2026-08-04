@@ -1,6 +1,7 @@
 package Binary_Search;
 
 public class Minimun_Days_To_Make_Bouquets {
+	/*
 	static int countBouquets(int[] bloomDay, int day, int k) {
 		int flowers = 0; 
 		int bouquets = 0; 
@@ -45,4 +46,14 @@ public class Minimun_Days_To_Make_Bouquets {
     	 
     	 System.out.println("MinDays: "+ minDays(bloomDay,m,k));
      }
+     */
+	
+	// <<< Optimal Way (Binary Search) >>>
+	
+	static boolean canMake(int[] bloomDay, int day, int m, int k) {
+		int flowers = 0; 
+		int bouquets = 0; 
+		
+		return bouquets >= m; 
+	}
 }
