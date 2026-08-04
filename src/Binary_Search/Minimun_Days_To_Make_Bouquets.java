@@ -74,6 +74,13 @@ public class Minimun_Days_To_Make_Bouquets {
 		if((long) m * k > bloomDay.length)
 		 return -1; 
 		
+		int low = Integer.MAX_VALUE; 
+		int high = Integer.MIN_VALUE;
+		
+		for(int day : bloomDay) {
+			
+		}
+		
 		return answer; 
 	}
 }
