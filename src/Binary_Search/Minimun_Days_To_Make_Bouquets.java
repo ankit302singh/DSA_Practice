@@ -88,7 +88,11 @@ public class Minimun_Days_To_Make_Bouquets {
 			int mid = low + (high - low)/2; 
 			
 			if(canMake(bloomDay, mid, m, k)) {
-				
+				answer = mid; 
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
 			}
 		}
 		
