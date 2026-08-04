@@ -63,6 +63,9 @@ public class Minimun_Days_To_Make_Bouquets {
 					flowers = 0; 
 				}
 			}
+			else {
+				flowers = 0; 
+			}
 		}
 		
 		return bouquets >= m; 
