@@ -23,6 +23,9 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
      }
      
      public static void main(String[] args) {
-    	 int[] nums = {};
+    	 int[] nums = {1,2,5,9};
+    	 int threshold = 6; 
+    	 
+    	 System.out.println("smalles_divisor: " + smallestDivisor(nums,threshold));
      }
 }
