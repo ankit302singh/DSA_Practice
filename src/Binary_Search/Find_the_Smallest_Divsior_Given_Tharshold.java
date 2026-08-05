@@ -14,7 +14,10 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
     		 
     		 for(int num : nums) {
     			 
+    			 sum += (num + divisor -1) / divisor; 
     		 }
+    		 if(sum <= threshold)
+    			 return divisor; 
     	 }
     	 return -1; 
      }
