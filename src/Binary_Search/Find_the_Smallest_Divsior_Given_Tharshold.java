@@ -21,4 +21,8 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
     	 }
     	 return -1; 
      }
+     
+     public static void main(String[] args) {
+    	 int[] nums = {};
+     }
 }
