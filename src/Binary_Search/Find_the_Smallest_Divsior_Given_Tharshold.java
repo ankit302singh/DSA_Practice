@@ -1,6 +1,7 @@
 package Binary_Search;
 
 public class Find_the_Smallest_Divsior_Given_Tharshold {
+	/*
      public static int smallestDivisor(int[] nums, int threshold) {
     	 
     	 int max = nums[0];
@@ -28,4 +29,13 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
     	 
     	 System.out.println("smalles_divisor: " + smallestDivisor(nums,threshold));
      }
+     */
+	// <<<< Optimal way (Binary Search) >>>>
+	
+	static int calculateSum(int[] nums, int divisor) {
+		int sum = 0; 
+		
+		return sum; 
+	}
+	
 }
