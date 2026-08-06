@@ -70,5 +70,8 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 		}
 		return answer; 
 	}
-	
+	public static void main(String[] args) {
+		int nums[] = {1,2,5,9}; 
+		
+	}
 }
