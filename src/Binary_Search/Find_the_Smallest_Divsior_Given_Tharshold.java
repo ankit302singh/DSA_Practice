@@ -35,6 +35,10 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 	static int calculateSum(int[] nums, int divisor) {
 		int sum = 0; 
 		
+		for(int num : nums) {
+			sum += (num + divisor -1)/divisor ; 
+		}
+		
 		return sum; 
 	}
 	
