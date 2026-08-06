@@ -50,6 +50,14 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 			if(num > max)
 				max = num; 
 		}
+		
+		int low = 1; 
+		int high = max; 
+		int answer = max; 
+		
+		while(low <= high) {
+			
+		}
 		return answer; 
 	}
 	
