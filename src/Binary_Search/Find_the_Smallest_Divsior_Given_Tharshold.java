@@ -56,7 +56,13 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 		int answer = max; 
 		
 		while(low <= high) {
+			int mid = low + (high - low)/2;
 			
+			int sum = calculateSum(nums, mid);
+			
+			if(sum <= threshold) {
+				
+			}
 		}
 		return answer; 
 	}
