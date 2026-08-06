@@ -42,4 +42,9 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 		return sum; 
 	}
 	
+	public static int smallesDivisor(int[] nums, int threshold) {
+		
+		return answer; 
+	}
+	
 }
