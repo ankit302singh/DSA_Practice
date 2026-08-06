@@ -42,7 +42,7 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 		return sum; 
 	}
 	
-	public static int smallesDivisor(int[] nums, int threshold) {
+	public static int smallestDivisor(int[] nums, int threshold) {
 		
 		int max = nums[0];
 		
@@ -72,6 +72,8 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 	}
 	public static void main(String[] args) {
 		int nums[] = {1,2,5,9}; 
+		int threshold = 6; 
 		
+		System.out.println("Smallest_Divisor: "+ smallestDivisor(nums, threshold));
 	}
 }
