@@ -61,7 +61,11 @@ public class Find_the_Smallest_Divsior_Given_Tharshold {
 			int sum = calculateSum(nums, mid);
 			
 			if(sum <= threshold) {
-				
+				answer = mid; 
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
 			}
 		}
 		return answer; 
