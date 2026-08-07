@@ -7,8 +7,16 @@ public class Capacity_Of_Ship_Package {
 		
 		for(int weight : weights) {
 			
+			if(load + weight > capacity) {
+			days++; 
+			load = weight; 
 		}
+			else {
+				load += weight; 
+			}
+	}
 		return days; 
 	}
 
 }
+	
