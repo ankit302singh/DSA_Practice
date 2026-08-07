@@ -17,6 +17,11 @@ public class Capacity_Of_Ship_Package {
 	}
 		return days; 
 	}
+	
+	static int shipWithinDays(int[] weights, int days) {
+		
+		return -1; 
+	}
 
 }
 	
