@@ -24,6 +24,10 @@ public class Capacity_Of_Ship_Package {
 		int sum = 0; 
 		
 		for(int weight : weights) {
+			max = Math.max(max, weight);
+			sum += weight; 
+		}
+		for(int capacity = max; capacity <= sum; capacity++) {
 			
 		}
 		
