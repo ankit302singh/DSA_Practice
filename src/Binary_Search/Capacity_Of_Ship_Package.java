@@ -20,6 +20,13 @@ public class Capacity_Of_Ship_Package {
 	
 	static int shipWithinDays(int[] weights, int days) {
 		
+		int max = 0; 
+		int sum = 0; 
+		
+		for(int weight : weights) {
+			
+		}
+		
 		return -1; 
 	}
 
