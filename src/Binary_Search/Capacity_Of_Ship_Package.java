@@ -1,6 +1,7 @@
 package Binary_Search;
 
 public class Capacity_Of_Ship_Package {
+	/*
 	static int findDays(int[] weights, int capacity) {
 		int days = 1; 
 		int load = 0; 
@@ -39,6 +40,15 @@ public class Capacity_Of_Ship_Package {
 		int days = 5; 
 		
 		System.out.println("ShipWithinDays: "+ shipWithinDays(weight, days));
+	}
+	*/
+	
+	// <<< Optimal Way (Binary Search) >>>
+	
+	static int findDays(int[] weight, int capacity) {
+		int days = 0; 
+		
+		return days; 
 	}
 
 }
