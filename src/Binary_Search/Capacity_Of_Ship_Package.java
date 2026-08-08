@@ -28,10 +28,14 @@ public class Capacity_Of_Ship_Package {
 			sum += weight; 
 		}
 		for(int capacity = max; capacity <= sum; capacity++) {
-			
+			if(findDays(weights, capacity) <= days)
+				return capacity; 
 		}
 		
 		return -1; 
+	}
+	public static void main(String[] args) {
+		
 	}
 
 }
