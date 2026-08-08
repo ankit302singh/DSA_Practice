@@ -74,7 +74,16 @@ public class Capacity_Of_Ship_Package {
 		int high = sum; 
 		
 		while(low <= high) {
+			int mid = low + (high - low)/2; 
 			
+			int requiredDays = findDays(weights, mid);
+			
+			if(requiredDays <= days) {
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
+			}
 		}
 		return low; 
 	}
