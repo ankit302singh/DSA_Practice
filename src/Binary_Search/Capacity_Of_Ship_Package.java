@@ -67,6 +67,13 @@ public class Capacity_Of_Ship_Package {
 		int sum = 0; 
 		
 		for(int weight : weights) {
+			max = Math.max(max, weight);
+			sum += weight; 
+		}
+		int low = max; 
+		int high = sum; 
+		
+		while(low <= high) {
 			
 		}
 		return low; 
