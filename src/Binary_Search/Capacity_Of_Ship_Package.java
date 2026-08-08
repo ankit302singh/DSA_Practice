@@ -45,8 +45,19 @@ public class Capacity_Of_Ship_Package {
 	
 	// <<< Optimal Way (Binary Search) >>>
 	
-	static int findDays(int[] weight, int capacity) {
-		int days = 0; 
+	static int findDays(int[] weights, int capacity) {
+		int days = 1; 
+		int load = 0; 
+		
+		for(int weight : weights) {
+			if(load + weight > capacity) {
+				days++; 
+				load = weight; 
+			}
+			else {
+				load += weight; 
+			}
+		}
 		
 		return days; 
 	}
