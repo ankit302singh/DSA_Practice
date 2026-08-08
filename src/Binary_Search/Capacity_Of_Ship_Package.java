@@ -35,7 +35,10 @@ public class Capacity_Of_Ship_Package {
 		return -1; 
 	}
 	public static void main(String[] args) {
+		int[] weight = {1,2,3,4,5,6,7,8,9,10};
+		int days = 5; 
 		
+		System.out.println("ShipWithinDays: "+ shipWithinDays(weight, days));
 	}
 
 }
