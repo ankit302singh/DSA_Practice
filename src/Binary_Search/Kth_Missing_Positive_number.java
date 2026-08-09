@@ -5,6 +5,12 @@ public class Kth_Missing_Positive_number {
 	public static int findKthMissing(int[] arr, int k) {
 		int number = 1; 
 		
+		while(true) {
+			boolean found = false; 
+			for(int value : arr) {
+				
+			}
+		}
 	}
 
 }
