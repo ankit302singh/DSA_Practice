@@ -25,6 +25,7 @@ public class Kth_Missing_Positive_number {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
 		int n = sc.nextInt();
 		
 		int[] arr = new int[n];
@@ -32,7 +33,10 @@ public class Kth_Missing_Positive_number {
 		for(int i =0; i<n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		int k = sc.nextInt();
 		
+		System.out.println("Kth Missing: " + findKthMissing(arr,k));
+		sc.close();
 	}
 
 }
