@@ -87,6 +87,13 @@ public class Capacity_Of_Ship_Package {
 		}
 		return low; 
 	}
+	public static void main(String[] args) {
+		
+		int[] weights = {1,2,3,4,5,6,7,8,9,10}; 
+		int days = 5; 
+		
+		System.out.println(shipWithinDays(weights, days));
+	}
 
 }
 	
