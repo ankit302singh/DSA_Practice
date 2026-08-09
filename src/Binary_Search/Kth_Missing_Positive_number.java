@@ -8,7 +8,16 @@ public class Kth_Missing_Positive_number {
 		while(true) {
 			boolean found = false; 
 			for(int value : arr) {
-				
+				if(value == number) {
+					found = true; 
+					break; 
+				}
+			}
+			if(!found) {
+				k--; 
+			}
+			if(k == 0) {
+				return number; 
 			}
 		}
 	}
