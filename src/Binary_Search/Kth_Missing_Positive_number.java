@@ -19,7 +19,11 @@ public class Kth_Missing_Positive_number {
 			if(k == 0) {
 				return number; 
 			}
+			number++;
 		}
+	}
+	public static void main(String[] args) {
+		
 	}
 
 }
