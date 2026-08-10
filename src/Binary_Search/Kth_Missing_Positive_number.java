@@ -72,5 +72,9 @@ public class Kth_Missing_Positive_number {
 			arr[i] = sc.nextInt();
 		}
 		int k = sc.nextInt();
+		
+		System.out.println(findKthMissing(arr,k));
+		
+		sc.close();
 	}
 }
