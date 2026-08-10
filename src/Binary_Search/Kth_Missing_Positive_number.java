@@ -62,4 +62,7 @@ public class Kth_Missing_Positive_number {
 			number++; 
 		}
 	}
+	public static void main(String[] args) {
+		
+	}
 }
