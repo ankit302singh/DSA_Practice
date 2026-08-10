@@ -48,6 +48,11 @@ public class Kth_Missing_Positive_number {
 		HashSet<Integer> set = new HashSet<>();
 		
 		for(int value : arr) {
+			set.add(value);
+		}
+		int number = 1; 
+		
+		while(true) {
 			
 		}
 	}
