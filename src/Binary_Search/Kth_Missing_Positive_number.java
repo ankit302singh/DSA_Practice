@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.*; 
 
 public class Kth_Missing_Positive_number {
+	/*
 	public static int findKthMissing(int[] arr, int k) {
 		int number = 1; 
 		
@@ -38,5 +39,11 @@ public class Kth_Missing_Positive_number {
 		System.out.println("Kth Missing: " + findKthMissing(arr,k));
 		sc.close();
 	}
-
+    */
+	
+	// <<< Better Way ( HashSet ) >>>
+	
+	public static int findKthMissing(int[] arr, int k) {
+		
+	}
 }
