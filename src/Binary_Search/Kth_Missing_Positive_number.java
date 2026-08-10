@@ -68,5 +68,9 @@ public class Kth_Missing_Positive_number {
 		int n = sc.nextInt();
 		int[] arr = new int[n];
 		
+		for(int i=0; i < n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		int k = sc.nextInt();
 	}
 }
