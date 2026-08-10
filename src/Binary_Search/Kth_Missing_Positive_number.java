@@ -45,5 +45,10 @@ public class Kth_Missing_Positive_number {
 	
 	public static int findKthMissing(int[] arr, int k) {
 		
+		HashSet<Integer> set = new HashSet<>();
+		
+		for(int value : arr) {
+			
+		}
 	}
 }
