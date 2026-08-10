@@ -53,7 +53,13 @@ public class Kth_Missing_Positive_number {
 		int number = 1; 
 		
 		while(true) {
-			
+			if(!set.contains(number)) {
+				k--; 
+			}
+			if(k==0) {
+				return number; 
+			}
+			number++; 
 		}
 	}
 }
