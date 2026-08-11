@@ -41,6 +41,8 @@ public class Kth_Missing_Positive_number {
 	}
     */
 	
+	/*
+	
 	// <<< Better Way ( HashSet ) >>>
 	
 	public static int findKthMissing(int[] arr, int k) {
@@ -76,5 +78,15 @@ public class Kth_Missing_Positive_number {
 		System.out.println(findKthMissing(arr,k));
 		
 		sc.close();
+	}
+	
+	*/
+	
+	// <<< Optimal Way ( Binary Search) >>>
+	
+	public static int findKthMissing(int[] arr, int k) {
+		
+		int left = 0; 
+		
 	}
 }
