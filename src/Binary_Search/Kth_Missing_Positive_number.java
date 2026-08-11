@@ -87,6 +87,10 @@ public class Kth_Missing_Positive_number {
 	public static int findKthMissing(int[] arr, int k) {
 		
 		int left = 0; 
+		int right = arr.length - 1; 
 		
+		while(left <= right) {
+			
+		}
 	}
 }
