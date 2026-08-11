@@ -101,5 +101,6 @@ public class Kth_Missing_Positive_number {
 				right = mid - 1; 
 			}
 		}
+		return left + k; 
 	}
 }
