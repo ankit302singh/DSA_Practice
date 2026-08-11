@@ -94,6 +94,12 @@ public class Kth_Missing_Positive_number {
 			
 			int missing = arr[mid] = (mid + 1);
 			
+			if(missing < k) {
+				left = mid + 1; 
+			}
+			else {
+				right = mid - 1; 
+			}
 		}
 	}
 }
