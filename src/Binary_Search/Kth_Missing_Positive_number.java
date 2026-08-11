@@ -103,4 +103,8 @@ public class Kth_Missing_Positive_number {
 		}
 		return left + k; 
 	}
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+	}
 }
