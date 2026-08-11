@@ -90,6 +90,9 @@ public class Kth_Missing_Positive_number {
 		int right = arr.length - 1; 
 		
 		while(left <= right) {
+			int mid = left + (right - left) / 2; 
+			
+			int missing = arr[mid] = (mid + 1);
 			
 		}
 	}
