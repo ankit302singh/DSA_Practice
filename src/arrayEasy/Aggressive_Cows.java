@@ -9,6 +9,12 @@ public class Aggressive_Cows {
 		int maxDistance = stalls[stalls.length - 1] - stalls[0];
 		
 		int answer = 0; 
+		
+		for(int distance = 1; distance <= maxDistance; distance++) {
+			if(canPlaceCows(stalls, k, distance)) {
+				answer = distance; 
+			}
+		}
 	}
 
 }
