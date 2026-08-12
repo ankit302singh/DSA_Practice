@@ -15,6 +15,10 @@ public class Aggressive_Cows {
 				answer = distance; 
 			}
 		}
+		return answer; 
+	}
+	static boolean canPlaceCows(int[] stalls, int k, int distance) {
+		int cowsPlaced = 1; 
 	}
 
 }
