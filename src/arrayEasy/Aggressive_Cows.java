@@ -19,6 +19,14 @@ public class Aggressive_Cows {
 	}
 	static boolean canPlaceCows(int[] stalls, int k, int distance) {
 		int cowsPlaced = 1; 
+		
+		int lastPosition = stalls[0];
+		
+		for(int i=1; i<stalls.length; i++) {
+			if(stalls[i] - lastPosition >= distance) {
+				
+			}
+		}
 	}
 
 }
