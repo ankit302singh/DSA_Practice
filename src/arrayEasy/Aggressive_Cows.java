@@ -24,8 +24,11 @@ public class Aggressive_Cows {
 		
 		for(int i=1; i<stalls.length; i++) {
 			if(stalls[i] - lastPosition >= distance) {
+				cowsPlaced++; 
 				
+				lastPosition = stalls[i];
 			}
+			
 		}
 	}
 
