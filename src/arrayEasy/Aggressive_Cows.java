@@ -28,8 +28,11 @@ public class Aggressive_Cows {
 				
 				lastPosition = stalls[i];
 			}
-			
+			if(cowsPlaced == k) {
+				return true; 
+			}
 		}
+		return false; 
 	}
 
 }
