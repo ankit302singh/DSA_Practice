@@ -69,8 +69,13 @@ public class Aggressive_Cows {
 			int mid = low + (high - low) / 2;
 			 if(canPlaceCows(stalls, k, mid)) {
 				 answer = mid; 
+				 low = mid + 1; 
+			 }
+			 else {
+				 high = mid - 1; 
 			 }
 		}
+		return answer; 
 	}
 
 }
