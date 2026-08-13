@@ -1,4 +1,5 @@
 package arrayEasy;
+import java.util.*;
 
 import java.util.Arrays;
 
@@ -33,6 +34,9 @@ public class Aggressive_Cows {
 			}
 		}
 		return false; 
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 	}
 
 }
