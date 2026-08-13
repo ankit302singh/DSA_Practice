@@ -4,6 +4,7 @@ import java.util.*;
 import java.util.Arrays;
 
 public class Aggressive_Cows {
+	/*
 	static int maxDistance(int[] stalls, int k) {
 		Arrays.sort(stalls);
 		
@@ -49,6 +50,14 @@ public class Aggressive_Cows {
 		System.out.println("Maximum Minimum: " + maxDistance(stalls, k));
 		
 		sc.close();
+	}
+	*/
+	
+	// <<< Optimal Way (Binary Search) >>>
+	
+	static int maxDistance(int[] stalls, int k) {
+		
+		Arrays.sort(stalls);
 	}
 
 }
