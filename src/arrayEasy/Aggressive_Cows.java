@@ -58,6 +58,15 @@ public class Aggressive_Cows {
 	static int maxDistance(int[] stalls, int k) {
 		
 		Arrays.sort(stalls);
+		int low = 1; 
+		
+		int high = stalls[stalls.length -1] - stalls[0];
+		
+		int answer = 0; 
+		
+		while(low <= high) {
+			
+		}
 	}
 
 }
