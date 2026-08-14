@@ -92,5 +92,8 @@ public class Aggressive_Cows {
 		}
 		return false; 
 	}
+	public static void main(String[] args) {
+		
+	}
 
 }
