@@ -97,6 +97,11 @@ public class Aggressive_Cows {
 		
 		int n = sc.nextInt();
 		int[] stalls = new int[n];
+		
+		for(int i=1; i<n; i++) {
+			stalls[i] = sc.nextInt();
+		}
+		
 	}
 
 }
