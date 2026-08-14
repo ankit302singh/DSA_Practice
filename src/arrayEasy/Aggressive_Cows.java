@@ -101,7 +101,11 @@ public class Aggressive_Cows {
 		for(int i=1; i<n; i++) {
 			stalls[i] = sc.nextInt();
 		}
+		int k = sc.nextInt();
 		
+		System.out.println("Maximum Minimum: "+ maxDistance(stalls, k));
+		
+		sc.close();
 	}
 
 }
