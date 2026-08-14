@@ -78,6 +78,9 @@ public class Aggressive_Cows {
 		return answer; 
 	}
 	static boolean canPlaceCows(int[] stalls, int k, int distance) {
+		int cowsPlaced = 1; 
+		
+		int lastPosition = stalls[0];
 		
 	}
 
