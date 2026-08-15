@@ -32,5 +32,8 @@ public class Book_Allocation_Problem {
 		}
 		return answer; 
 	}
+	public static void main(String[] args) {
+		
+	}
 
 }
