@@ -19,6 +19,11 @@ public class Book_Allocation_Problem {
 			return sum; 
 		}
 		int answer = Integer.MAX_VALUE; 
+		int sum = 0; 
+		
+		for(int i = index; i < books.length - students; i++) {
+			sum += books[i];
+		}
 	}
 
 }
