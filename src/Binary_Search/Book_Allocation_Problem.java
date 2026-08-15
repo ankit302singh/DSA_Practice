@@ -23,7 +23,14 @@ public class Book_Allocation_Problem {
 		
 		for(int i = index; i < books.length - students; i++) {
 			sum += books[i];
+			
+			int remaining = solve(books, i+1, students - 1);
+			
+			int currentMax = Math.max(sum, remaining);
+			
+			answer = Math.min(answer, currentMax);
 		}
+		return answer; 
 	}
 
 }
