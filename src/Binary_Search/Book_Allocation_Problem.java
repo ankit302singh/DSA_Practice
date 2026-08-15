@@ -12,7 +12,13 @@ public class Book_Allocation_Problem {
 		
 		if(students == 1) {
 			int sum = 0; 
+			
+			for(int i= index; i < books.length; i++) {
+				sum += books[i];
+			}
+			return sum; 
 		}
+		int answer = Integer.MAX_VALUE; 
 	}
 
 }
