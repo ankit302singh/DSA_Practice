@@ -71,5 +71,14 @@ public class Book_Allocation_Problem {
 			high += book; 
 		}
 		int answer = -1; 
+		
+		while(low <= high) {
+			int mid = low + (high - low) / 2; 
+			
+			if(canAllocate(books, students, mid)) {
+				answer = mid; 
+				high = mid - 1; 
+			}
+		}
 	}
 }
