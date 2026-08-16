@@ -53,6 +53,11 @@ public class Book_Allocation_Problem {
 			if(pages + book <= limit) {
 				pages += book; 
 			}
+			else {
+				studentCount++; 
+				pages = book; 
+			}
 		}
+		return studentCount <= students; 
 	}
 }
