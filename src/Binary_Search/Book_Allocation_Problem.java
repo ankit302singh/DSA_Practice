@@ -79,6 +79,13 @@ public class Book_Allocation_Problem {
 				answer = mid; 
 				high = mid - 1; 
 			}
+			else {
+				low = mid + 1; 
+			}
 		}
+		return answer; 
+	}
+	public static void main(String[] args) {
+		
 	}
 }
