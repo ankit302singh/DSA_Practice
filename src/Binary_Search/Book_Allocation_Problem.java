@@ -86,6 +86,10 @@ public class Book_Allocation_Problem {
 		return answer; 
 	}
 	public static void main(String[] args) {
+		int [] books =  {12, 34, 67, 90}; 
+		int students = 2; 
 		
+		int result = findMinimumPages(books, students);
+		System.out.println(result);
 	}
 }
