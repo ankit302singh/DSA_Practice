@@ -60,4 +60,13 @@ public class Book_Allocation_Problem {
 		}
 		return studentCount <= students; 
 	}
+	static int findMinimumPages(int[] books, int students) {
+		if(students > books.length) {
+			return -1; 
+		}
+		int low = 0; 
+		for(int book:books) {
+			
+		}
+	}
 }
