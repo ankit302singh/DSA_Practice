@@ -46,5 +46,13 @@ public class Book_Allocation_Problem {
 	static boolean canAllocate(int[] books, int students, int limit) {
 		
 		int studentCount = 1; 
+		
+		int pages = 0; 
+		
+		for(int book : books) {
+			if(pages + book <= limit) {
+				pages += book; 
+			}
+		}
 	}
 }
