@@ -65,8 +65,11 @@ public class Book_Allocation_Problem {
 			return -1; 
 		}
 		int low = 0; 
+		int high = 0; 
 		for(int book:books) {
-			
+			low = Math.max(low, book);
+			high += book; 
 		}
+		int answer = -1; 
 	}
 }
