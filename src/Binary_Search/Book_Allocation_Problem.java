@@ -2,7 +2,7 @@ package Binary_Search;
 import java.util.*;
 
 public class Book_Allocation_Problem {
-	static int findMinimun(int[] books, int students) {
+	static int findMinimum(int[] books, int students) {
 		if(students > books.length) {
 			return -1; 
 		}
@@ -33,7 +33,10 @@ public class Book_Allocation_Problem {
 		return answer; 
 	}
 	public static void main(String[] args) {
+		int[] books = {12,34,67,90};
+		int students = 2; 
 		
+		System.out.println(findMinimum(books, students));
 	}
 
 }
