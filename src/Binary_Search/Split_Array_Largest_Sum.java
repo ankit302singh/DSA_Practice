@@ -7,7 +7,13 @@ public class Split_Array_Largest_Sum {
 		int currentSum = 0; 
 		
 		for(int num : arr) {
-			
+			if(currentSum + num <= maxSum) {
+				currentSum += num; 
+			}
+			else {
+				subarrays++; 
+				currentSum = num; 
+			}
 		}
 	}
    
