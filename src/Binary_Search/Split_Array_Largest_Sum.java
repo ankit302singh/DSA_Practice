@@ -20,6 +20,12 @@ public class Split_Array_Largest_Sum {
 	static int splitArray(int[] arr, int k) {
 		int maxElement = 0; 
 		int totalSum = 0; 
+		
+		for(int num : arr) {
+			maxElement = Math.max(maxElement, num);
+			totalSum += num; 
+		}
+		
 	}
    
 }
