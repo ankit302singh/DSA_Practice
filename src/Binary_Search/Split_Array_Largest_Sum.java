@@ -15,6 +15,11 @@ public class Split_Array_Largest_Sum {
 				currentSum = num; 
 			}
 		}
+		return subarrays <= k; 
+	}
+	static int splitArray(int[] arr, int k) {
+		int maxElement = 0; 
+		int totalSum = 0; 
 	}
    
 }
