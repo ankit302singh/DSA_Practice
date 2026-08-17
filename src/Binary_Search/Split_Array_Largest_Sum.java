@@ -1,5 +1,7 @@
 package Binary_Search;
 
+import java.util.Scanner;
+
 public class Split_Array_Largest_Sum {
 	static boolean canSplit(int[] arr, int k, int maxSum) {
 		
@@ -30,6 +32,12 @@ public class Split_Array_Largest_Sum {
 				return maxSum;
 			}
 		}
+		return -1; 
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int[] arr = new int[n];
 	}
    
 }
