@@ -25,7 +25,11 @@ public class Split_Array_Largest_Sum {
 			maxElement = Math.max(maxElement, num);
 			totalSum += num; 
 		}
-		
+		for(int maxSum = maxElement; maxSum <= totalSum; maxSum++) {
+			if(canSplit(arr, k, maxSum)) {
+				return maxSum;
+			}
+		}
 	}
    
 }
