@@ -66,5 +66,13 @@ public class Split_Array_Largest_Sum {
 		}
 		return subarrays; 
 	}
+	static long splitArray(int[] arr, int k) {
+		long low = 0; 
+		long high = 0; 
+		
+		for(int num : arr) {
+			
+		}
+	}
    
 }
