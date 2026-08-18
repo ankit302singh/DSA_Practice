@@ -78,7 +78,15 @@ public class Split_Array_Largest_Sum {
 			long mid = low + (high - low) / 2; 
 			
 			int requiredSubarrays = countSubarrays(arr, mid );
+			
+			if(requiredSubarrays <= k) {
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
+			}
 		}
+		return low; 
 	}
    
 }
