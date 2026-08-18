@@ -71,6 +71,10 @@ public class Split_Array_Largest_Sum {
 		long high = 0; 
 		
 		for(int num : arr) {
+			low = Math.max(low, num);
+			high += num; 
+		}
+		while(low <= high) {
 			
 		}
 	}
