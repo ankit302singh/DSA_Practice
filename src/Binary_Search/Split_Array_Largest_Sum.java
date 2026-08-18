@@ -54,6 +54,15 @@ public class Split_Array_Largest_Sum {
 	static int countSubarrays(int[] arr, long maxSum) {
 		int subarrays = 1; 
 		long currentSum = 0; 
+		
+		for(int num : arr) {
+			if(currentSum + num <= maxSum) {
+				currentSum += num ; 
+			}
+			else {
+				
+			}
+		}
 	}
    
 }
