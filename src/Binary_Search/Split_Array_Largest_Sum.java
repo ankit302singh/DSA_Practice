@@ -60,9 +60,11 @@ public class Split_Array_Largest_Sum {
 				currentSum += num ; 
 			}
 			else {
-				
+				subarrays++; 
+				currentSum = num; 
 			}
 		}
+		return subarrays; 
 	}
    
 }
