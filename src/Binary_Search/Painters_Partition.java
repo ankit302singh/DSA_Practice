@@ -35,7 +35,7 @@ public class Painters_Partition {
 			high += board; 
 		}
 		while(low <= high) {
-			
+			int mid = low + (high - low) / 2; 
 		}
 	}
 
