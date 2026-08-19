@@ -25,5 +25,11 @@ public class Painters_Partition {
 		}
 		return true; 
 	}
+	
+	static int painterPartition(int[] boards, int k) {
+		int low = 0; 
+		int high = 0; 
+		
+	}
 
 }
