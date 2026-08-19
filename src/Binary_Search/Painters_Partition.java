@@ -12,9 +12,18 @@ public class Painters_Partition {
 				return false ; 
 			}
 			if(currentSum + board <= limit) {
+				currentSum += board; 
+			}
+			else {
+				painters++; 
+				currentSum = board; 
 				
+				if(painters > k) {
+					return false; 
+				}
 			}
 		}
+		return true; 
 	}
 
 }
