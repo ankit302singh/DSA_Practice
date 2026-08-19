@@ -36,7 +36,15 @@ public class Painters_Partition {
 		}
 		while(low <= high) {
 			int mid = low + (high - low) / 2; 
+			
+			if(canPaint(boards, k , mid)) {
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
+			}
 		}
+		return low; 
 	}
 
 }
