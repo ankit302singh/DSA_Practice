@@ -6,6 +6,15 @@ public class Painters_Partition {
 		
 		int painters = 1; 
 		int currentSum = 0; 
+		
+		for(int board : boards) {
+			if(board > limit) {
+				return false ; 
+			}
+			if(currentSum + board <= limit) {
+				
+			}
+		}
 	}
 
 }
