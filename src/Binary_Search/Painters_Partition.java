@@ -30,6 +30,13 @@ public class Painters_Partition {
 		int low = 0; 
 		int high = 0; 
 		
+		for(int board : boards) {
+			low = Math.max(low, board);
+			high += board; 
+		}
+		while(low <= high) {
+			
+		}
 	}
 
 }
