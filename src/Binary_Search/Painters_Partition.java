@@ -1,4 +1,5 @@
 package Binary_Search;
+import java.util.*; 
 
 public class Painters_Partition {
 	
@@ -45,6 +46,11 @@ public class Painters_Partition {
 			}
 		}
 		return low; 
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
 	}
 
 }
