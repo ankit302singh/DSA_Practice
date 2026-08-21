@@ -12,8 +12,16 @@ public class Minimize_max_distance_to_Gas_Station {
 			int maxIndex = -1; 
 			
 			for(int i = 0; i < n-1; i++) {
-				double originealGap = arr[i+1] - arr[i];
+				double originalGap = arr[i+1] - arr[i];
+				
+				double sectionLength = originalGap / (placed[i] + 1.0);
+				
+				if(sectionLength > maxSection) {
+					maxSection = sectionLength; 
+					maxIndex = i; 
+				}
 			}
+			placed[maxIndex]++; 
 		}
 	}
 
