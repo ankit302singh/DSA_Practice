@@ -34,5 +34,12 @@ public class Minimize_max_distance_to_Gas_Station {
 	}
 	return answer; 
 	}
+	
+	public static void main(String[] args) {
+		
+		int[] arr = {1, 13, 17, 23}; 
+		int k = 5; 
+		
+	}
 
 }
