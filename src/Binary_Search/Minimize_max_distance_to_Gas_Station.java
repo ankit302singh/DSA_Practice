@@ -29,6 +29,10 @@ public class Minimize_max_distance_to_Gas_Station {
 		double originalGap = arr[i+1] - arr[i];
 		
 		double sectionLength = originalGap / (placed[i] + 1.0);
+		
+		answer = Math.max(answer, sectionLength);
+	}
+	return answer; 
 	}
 
 }
