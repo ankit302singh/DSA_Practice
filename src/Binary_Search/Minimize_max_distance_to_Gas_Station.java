@@ -65,6 +65,10 @@ public class Minimize_max_distance_to_Gas_Station {
 		int n = arr.length; 
 		double low = 0.0; 
 		double high = 0.0; 
+		
+		for(int i = 1; i < n ; i++) {
+			high = Math.max(high, arr[i] - arr[i - 1]);
+		}
 	}
 
 }
