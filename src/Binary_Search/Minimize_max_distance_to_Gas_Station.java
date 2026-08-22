@@ -60,5 +60,11 @@ public class Minimize_max_distance_to_Gas_Station {
 		}
 		return count; 
 	}
+	
+	public static double minimizeMaxDistance(int[] arr, int k) {
+		int n = arr.length; 
+		double low = 0.0; 
+		double high = 0.0; 
+	}
 
 }
