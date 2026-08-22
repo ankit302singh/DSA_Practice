@@ -53,7 +53,12 @@ public class Minimize_max_distance_to_Gas_Station {
 		int count = 0; 
 		for(int i = 1; i < arr.length; i++) {
 			double gap = arr[i] - arr[i-1];
+			
+			int station = (int)Math.ceil(gap / distance) - 1; 
+			
+			count += station; 
 		}
+		return count; 
 	}
 
 }
