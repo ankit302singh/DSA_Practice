@@ -50,7 +50,10 @@ public class Minimize_max_distance_to_Gas_Station {
 	// << Optimal Way (binary search) >>
 	
 	public static int stationRequired(int[] arr, double distance) {
-		
+		int count = 0; 
+		for(int i = 1; i < arr.length; i++) {
+			double gap = arr[i] - arr[i-1];
+		}
 	}
 
 }
