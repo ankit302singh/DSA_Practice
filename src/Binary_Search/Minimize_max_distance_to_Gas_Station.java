@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.*;
 
 public class Minimize_max_distance_to_Gas_Station {
+	/*
 	public static double minimizeMaxDistance(int[] arr, int k) {
 		int n = arr.length; 
 		
@@ -39,6 +40,16 @@ public class Minimize_max_distance_to_Gas_Station {
 		
 		int[] arr = {1, 13, 17, 23}; 
 		int k = 5; 
+		
+		double answer = minimizeMaxDistance(arr,k);
+		System.out.println(answer);
+		
+	}
+	*/
+	
+	// << Optimal Way (binary search) >>
+	
+	public static int stationRequired(int[] arr, double distance) {
 		
 	}
 
