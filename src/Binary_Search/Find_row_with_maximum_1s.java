@@ -8,7 +8,9 @@ public class Find_row_with_maximum_1s {
 		for(int i=0; i<matrix.length; i++) {
 			int count = 0; 
 			
-			
+			for(int j =0; j < matrix[i].length; j++) {
+				
+			}
 		}
 	}
 
