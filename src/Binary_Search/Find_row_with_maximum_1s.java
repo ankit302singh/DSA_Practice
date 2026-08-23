@@ -14,9 +14,11 @@ public class Find_row_with_maximum_1s {
 				}
 			}
 			if(count > maxOnes) {
-				
+				maxOnes = count; 
+				rowIndex = i; 
 			}
 		}
+		return rowIndex; 
 	}
 
 }
