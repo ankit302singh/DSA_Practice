@@ -9,6 +9,11 @@ public class Find_row_with_maximum_1s {
 			int count = 0; 
 			
 			for(int j =0; j < matrix[i].length; j++) {
+				if(matrix[i][j] == 1) {
+					count++; 
+				}
+			}
+			if(count > maxOnes) {
 				
 			}
 		}
