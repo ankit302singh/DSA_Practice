@@ -45,9 +45,15 @@ public class Find_row_with_maximum_1s {
 			int firstOne = findFirstOne(matrix[i]);
 			
 			if(firstOne != -1) {
+				int count = matrix[i].length - firstOne; 
 				
+				if(count > maxOne) {
+					maxOne = count; 
+					rowIndex = i; 
+				}
 			}
 				
 		}
+		return rowIndex; 
 	}
 }
