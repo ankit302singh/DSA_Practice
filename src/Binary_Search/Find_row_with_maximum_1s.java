@@ -37,6 +37,11 @@ public class Find_row_with_maximum_1s {
 	// Optimal Way (Binary Search ) 
 	
 	public static int findMaxOnes(int[][] matrix) {
+		int maxOne = 0; 
+		int rowIndex = -1; 
 		
+		for(int i = 0; i < matrix.length; i++) {
+			
+		}
 	}
 }
