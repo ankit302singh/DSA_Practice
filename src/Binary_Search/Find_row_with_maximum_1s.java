@@ -76,4 +76,12 @@ public class Find_row_with_maximum_1s {
 		}
 		return answer; 
 	}
+	
+	public static void main(String[] args) {
+		int[][] matrix = {
+				{0,0,0,1,1}, 
+				{0,0,1,1,1}, 
+				{0,0,0,0,1},
+		}
+	}
 }
