@@ -56,4 +56,15 @@ public class Find_row_with_maximum_1s {
 		}
 		return rowIndex; 
 	}
+	
+	public static int findFirstOne(int[] row) {
+		int low = 0; 
+		int high = row.length - 1; 
+		
+		int answer = -1; 
+		
+		while(low <= high) {
+			int mid = low + (high - low) / 2; 
+		}
+	}
 }
