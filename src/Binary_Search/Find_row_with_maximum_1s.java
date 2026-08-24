@@ -1,6 +1,7 @@
 package Binary_Search;
 
 public class Find_row_with_maximum_1s {
+	/*
 	public static int findMaxOnes(int[][] matrix) {
 		int maxOnes = 0; 
 		int rowIndex = -1; 
@@ -21,7 +22,8 @@ public class Find_row_with_maximum_1s {
 		return rowIndex; 
 	}
 	public static void main(String[] args) {
-		int[][] matrix = {{0,0,0,1,1},
+		int[][] matrix = {
+				{0,0,0,1,1},
 				{0,0,1,1,1},
 				{0,0,0,0,1},
 				{0,1,1,1,1}
@@ -29,5 +31,12 @@ public class Find_row_with_maximum_1s {
 		
 		System.out.println(findMaxOnes(matrix));
 	}
-
+  
+  */
+	
+	// Optimal Way (Binary Search ) 
+	
+	public static int findMaxOnes(int[][] matrix) {
+		
+	}
 }
