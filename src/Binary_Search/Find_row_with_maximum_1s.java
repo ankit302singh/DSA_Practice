@@ -65,6 +65,15 @@ public class Find_row_with_maximum_1s {
 		
 		while(low <= high) {
 			int mid = low + (high - low) / 2; 
+			
+			if(row[mid] == 1) {
+				answer = mid; 
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
+			}
 		}
+		return answer; 
 	}
 }
