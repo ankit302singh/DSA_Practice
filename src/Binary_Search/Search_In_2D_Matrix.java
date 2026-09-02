@@ -19,6 +19,12 @@ public class Search_In_2D_Matrix {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Enter number of rows: ");
+		int rows = sc.nextInt();
+		
+		System.out.print("Enter number of columns: ");
+		int cols = sc.nextInt();
+		
 		
 	}
 }
