@@ -2,7 +2,7 @@ package Binary_Search;
 import java.util.*;
 
 public class Search_In_2D_Matrix {
-	public static boolean searcMatrix(int[][] matrix, int target) {
+	public static boolean searchMatrix(int[][] matrix, int target) {
 		
 		for(int i = 0; i < matrix.length; i++) {
 			
@@ -37,6 +37,8 @@ public class Search_In_2D_Matrix {
 		}
 		System.out.println("Enter target: ");
 		int target = sc.nextInt();
+		
+		boolean result = searchMatrix(matrix, target);
 		
 		
 	}
