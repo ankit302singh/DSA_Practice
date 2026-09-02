@@ -35,6 +35,9 @@ public class Search_In_2D_Matrix {
 				matrix[i][j] = sc.nextInt();
 			}
 		}
+		System.out.println("Enter target: ");
+		int target = sc.nextInt();
+		
 		
 	}
 }
