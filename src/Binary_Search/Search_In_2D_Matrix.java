@@ -35,11 +35,12 @@ public class Search_In_2D_Matrix {
 				matrix[i][j] = sc.nextInt();
 			}
 		}
-		System.out.println("Enter target: ");
+		System.out.print("Enter target: ");
 		int target = sc.nextInt();
 		
 		boolean result = searchMatrix(matrix, target);
 		
-		
+		System.out.println("Target found: " + result);
+		sc.close();
 	}
 }
