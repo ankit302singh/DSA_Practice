@@ -50,6 +50,14 @@ public class Search_In_2D_Matrix {
 	
 	public static boolean searchMatrix(int[][] matrix, int target) {
 		
+		int row = matrix.length; 
+		int cols = matrix[0].length; 
+		
+		for(int i = 0; i < row; i++) {
+			if(target >= matrix[i][0] && target <= matrix[i][cols - 1]) {
+				return binarySearch(matrix[i], target);
+			}
+		}
 		return false; 
 	}
 }
