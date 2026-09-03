@@ -60,4 +60,9 @@ public class Search_In_2D_Matrix {
 		}
 		return false; 
 	}
+	
+	public static boolean binarySearch(int[] arr, int target) {
+		
+		return false; 
+	}
 }
