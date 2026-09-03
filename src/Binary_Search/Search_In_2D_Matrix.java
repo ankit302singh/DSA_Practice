@@ -72,6 +72,12 @@ public class Search_In_2D_Matrix {
 			if(arr[mid] == target) {
 				return true; 
 			}
+			else if(arr[mid] < target) {
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
 		}
 		return false; 
 	}
