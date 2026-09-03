@@ -67,7 +67,11 @@ public class Search_In_2D_Matrix {
 		int high = arr.length - 1; 
 		
 		while(low <= high) {
+			int mid = low + (high - low) / 2; 
 			
+			if(arr[mid] == target) {
+				return true; 
+			}
 		}
 		return false; 
 	}
