@@ -81,4 +81,22 @@ public class Search_In_2D_Matrix {
 		}
 		return false; 
 	}
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter number of rows: ");
+		int row = sc.nextInt();
+		
+		System.out.print("Enter number of cols: ");
+		int cols = sc.nextInt();
+		
+		int[][] matrix = new int[row][cols];
+		
+		System.out.println("Enter matrix elements: ");
+		
+		for(int i = 0; i < row; i++) {
+			
+		}
+	}
 }
