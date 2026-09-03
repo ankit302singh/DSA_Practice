@@ -63,6 +63,12 @@ public class Search_In_2D_Matrix {
 	
 	public static boolean binarySearch(int[] arr, int target) {
 		
+		int low = 0; 
+		int high = arr.length - 1; 
+		
+		while(low <= high) {
+			
+		}
 		return false; 
 	}
 }
