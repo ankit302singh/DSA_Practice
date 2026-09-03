@@ -2,6 +2,7 @@ package Binary_Search;
 import java.util.*;
 
 public class Search_In_2D_Matrix {
+	/*
 	public static boolean searchMatrix(int[][] matrix, int target) {
 		
 		for(int i = 0; i < matrix.length; i++) {
@@ -42,5 +43,13 @@ public class Search_In_2D_Matrix {
 		
 		System.out.println("Target found: " + result);
 		sc.close();
+	}
+	*/
+	
+	// Better Way -- Find the Row + binary Search 
+	
+	public static boolean searchMatrix(int[][] matrix, int target) {
+		
+		return false; 
 	}
 }
