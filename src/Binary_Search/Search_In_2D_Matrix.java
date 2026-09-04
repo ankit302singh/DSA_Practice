@@ -158,7 +158,10 @@ public class Search_In_2D_Matrix {
 		System.out.println("Enter matrix Element: ");
 		
 		for(int i = 0; i < rows; i++) {
-			
+			for(int j = 0; j < cols; j++) {
+				matrix[i][j] = sc.nextInt();
+			}
 		}
+		
 	}
 }
