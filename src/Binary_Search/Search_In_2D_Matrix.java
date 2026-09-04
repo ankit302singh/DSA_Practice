@@ -162,6 +162,10 @@ public class Search_In_2D_Matrix {
 				matrix[i][j] = sc.nextInt();
 			}
 		}
+		System.out.print("Enter target: ");
+		int target = sc.nextInt();
+		
+		boolean result = searchMatrix(matrix, target);
 		
 	}
 }
