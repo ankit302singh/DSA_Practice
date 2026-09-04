@@ -116,7 +116,15 @@ public class Search_In_2D_Matrix {
 	// <<< Optimal Way (Binary Search ) >>> 
 	
 	public static boolean searchMatrix(int[][] matrix, int target) {
+		int row = matrix.length; 
+		int cols = matrix[0].length; 
 		
+		int low = 0; 
+		int high = row * cols - 1; 
+		
+		while(low <= high) {
+			
+		}
 		return true; 
 	}
 }
