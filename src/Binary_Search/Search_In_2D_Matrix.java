@@ -48,6 +48,8 @@ public class Search_In_2D_Matrix {
 	
 	// Better Way -- Find the Row + binary Search 
 	
+	/*
+	
 	public static boolean searchMatrix(int[][] matrix, int target) {
 		
 		int row = matrix.length; 
@@ -107,5 +109,14 @@ public class Search_In_2D_Matrix {
 		System.out.println("Target found: " + result);
 		
 		sc.close();
+	}
+	
+	*/
+	
+	// <<< Optimal Way (Binary Search ) >>> 
+	
+	public static boolean searchMatrix(int[][] matrix, int target) {
+		
+		return true; 
 	}
 }
