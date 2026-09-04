@@ -143,4 +143,22 @@ public class Search_In_2D_Matrix {
 		}
 		return false; 
 	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter number of rows: ");
+		int rows = sc.nextInt();
+		
+		System.out.print("Enter number of cols: ");
+		int cols = sc.nextInt();
+		
+		int[][] matrix = new int[rows][cols];
+		
+		System.out.println("Enter matrix Element: ");
+		
+		for(int i = 0; i < rows; i++) {
+			
+		}
+	}
 }
