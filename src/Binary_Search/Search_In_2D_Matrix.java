@@ -126,7 +126,21 @@ public class Search_In_2D_Matrix {
 			int mid = low + (high - low ) / 2; 
 			
 			int row = mid / cols; 
+			
+			int col = mid % cols; 
+			
+			int midValue = matrix[row][col];
+			
+			if(midValue == target) {
+				return true; 
+			}
+			else if(midValue < target) {
+				low = mid + 1; 
+			}
+			else {
+				high = mid - 1; 
+			}
 		}
-		return true; 
+		return false; 
 	}
 }
