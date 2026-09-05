@@ -21,6 +21,13 @@ public class Find_Peak_Element_2 {
 				int left = (j > 0) ? mat[i][j-1] : -1; 
 				
 				int right = (j < cols - 1) ? mat[i][j+1] : -1; 
+				
+				if(current > top && 
+				   current > bottom && 
+				   current > left &&
+				   current > right) {
+					return new int[] {i,j};
+				}
 			}
 		}
 		return new int[] {-1,-1};
