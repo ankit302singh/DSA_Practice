@@ -38,6 +38,10 @@ public class Find_Peak_Element_2 {
 				{6, 7, 8},
 				{5, 2, 9}
 		};
+		
+		int[] answer = findPeakGrid(mat);
+		
+		System.out.println("Peak element position: [" + answer[0] + ", "+answer[1]+"]");
 	}
 
 }
