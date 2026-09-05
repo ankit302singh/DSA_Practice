@@ -1,6 +1,7 @@
 package Binary_Search;
 
 public class Find_Peak_Element_2 {
+	/*
 	// <<< Brute Force >>>
 	// *** check every element ***
 	public static int[] findPeakGrid(int[][] mat) {
@@ -42,6 +43,18 @@ public class Find_Peak_Element_2 {
 		int[] answer = findPeakGrid(mat);
 		
 		System.out.println("Peak element position: [" + answer[0] + ", "+answer[1]+"]");
+	}
+	
+	*/
+	
+	// <<< Better Way >>> 
+	
+	public static int[] findPeakGrid(int[][] mat) {
+		
+		int rows = mat.length; 
+		int cols = mat[0].length; 
+		
+		return new int[] {maxRow, maxCol};
 	}
 
 }
