@@ -32,5 +32,12 @@ public class Find_Peak_Element_2 {
 		}
 		return new int[] {-1,-1};
 	}
+	public static void main(String[] args) {
+		int[][] mat = {
+				{1, 4, 3},
+				{6, 7, 8},
+				{5, 2, 9}
+		};
+	}
 
 }
