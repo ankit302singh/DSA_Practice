@@ -167,5 +167,8 @@ public class Search_In_2D_Matrix {
 		
 		boolean result = searchMatrix(matrix, target);
 		
+		System.out.println("Target Found: " + result);
+		
+		sc.close();
 	}
 }
