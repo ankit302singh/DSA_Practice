@@ -15,6 +15,12 @@ public class Find_Peak_Element_2 {
 				int current = mat[i][j];
 				
 				int top = (i > 0) ? mat[i-1][j] : -1; 
+				
+				int bottom = (i < rows - 1) ? mat[i+1][j] : -1; 
+				
+				int left = (j > 0) ? mat[i][j-1] : -1; 
+				
+				int right = (j < cols - 1) ? mat[i][j+1] : -1; 
 			}
 		}
 		return new int[] {-1,-1};
