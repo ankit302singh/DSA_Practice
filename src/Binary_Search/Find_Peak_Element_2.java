@@ -117,6 +117,18 @@ public class Find_Peak_Element_2 {
 			int left = (mid - 1 >= 0) ? mat[maxRow][mid - 1] : -1; 
 			
 			int right = (mid + 1 < cols) ? mat[maxRow][mid + 1] : -1; 
+			
+			int current = mat[maxRow][mid];
+			
+			if(current > left && current > right) {
+				return new int[] {maxRow, mid}; 
+			}
+			else if(left > current) {
+				high = mid - 1; 
+			}
+			else {
+				low = mid + 1; 
+			}
 		}
 	}
 
