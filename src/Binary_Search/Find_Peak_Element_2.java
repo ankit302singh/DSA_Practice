@@ -54,6 +54,11 @@ public class Find_Peak_Element_2 {
 		int rows = mat.length; 
 		int cols = mat[0].length; 
 		
+		int maxValue = mat[0][0];
+		
+		int maxRow = 0; 
+		int maxCol = 0; 
+		
 		return new int[] {maxRow, maxCol};
 	}
 
