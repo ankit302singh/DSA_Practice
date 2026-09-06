@@ -71,5 +71,16 @@ public class Find_Peak_Element_2 {
 		
 		return new int[] {maxRow, maxCol};
 	}
+	
+	public static void main(String[] args) {
+		int[][] mat = {
+				{1,4,3},
+				{6,7,8},
+				{5,2,9}
+		};
+		int[] answer = findPeakGrid(mat);
+		
+		System.out.println("Peak Element: [" + answer[0] + ", "+ answer[1] +"]");
+	}
 
 }
