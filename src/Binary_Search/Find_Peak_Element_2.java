@@ -47,6 +47,8 @@ public class Find_Peak_Element_2 {
 	
 	*/
 	
+	/*
+	
 	// <<< Better Way >>> 
 	
 	public static int[] findPeakGrid(int[][] mat) {
@@ -81,6 +83,17 @@ public class Find_Peak_Element_2 {
 		int[] answer = findPeakGrid(mat);
 		
 		System.out.println("Peak Element: [" + answer[0] + ", "+ answer[1] +"]");
+	}
+	
+	*/
+	
+	// <<< Optimal Way (Binary Search) >>> 
+	
+	public static int findMaxRow(int[][] mat, int col) {
+		
+		int maxRow = 0; 
+		
+		return maxRow; 
 	}
 
 }
