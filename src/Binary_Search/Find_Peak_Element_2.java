@@ -108,6 +108,16 @@ public class Find_Peak_Element_2 {
 		
 		int low = 0; 
 		int high = cols - 1; 
+		
+		while(low <= high) {
+			int mid = low + (high - low) / 2; 
+			
+			int maxRow = findMaxRow(mat, mid);
+			
+			int left = (mid - 1 >= 0) ? mat[maxRow][mid - 1] : -1; 
+			
+			int right = (mid + 1 < cols) ? mat[maxRow][mid + 1] : -1; 
+		}
 	}
 
 }
