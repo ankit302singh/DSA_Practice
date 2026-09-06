@@ -93,6 +93,11 @@ public class Find_Peak_Element_2 {
 		
 		int maxRow = 0; 
 		
+		for(int i = 1; i < mat.length; i++) {
+			if(mat[i][col] > mat[maxRow][col]) {
+				maxRow = i; 
+			}
+		}
 		return maxRow; 
 	}
 
