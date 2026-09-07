@@ -141,6 +141,8 @@ public class Find_Peak_Element_2 {
 		};
 		
 		int[] answer = findPeakGrid(mat);
+		
+		System.out.println("Peak Element: " + mat[answer[0]][answer[1]]);
 	}
 
 }
