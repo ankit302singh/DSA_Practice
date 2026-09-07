@@ -2,6 +2,7 @@ package Strings;
 
 public class Remove_Outermost_Parentheses {
 // <<< Normal Way >>> 
+	/*
 	public static String removeOuter(String s) {
 		
 		String result = "";
@@ -30,4 +31,9 @@ public class Remove_Outermost_Parentheses {
 		String s = "(()())(())"; 
 		System.out.println(removeOuter(s));
 	}
+	*/
+	
+	// <<< Better Way >>> 
+	
+	
 }
