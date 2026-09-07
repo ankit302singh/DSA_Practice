@@ -16,7 +16,17 @@ public class Remove_Outermost_Parentheses {
 			else {
 				count--; 
 			}
+			
+			if(count == 0) {
+				String primitive = s.substring(start, i+1);
+				result += primitive.substring(1, primitive.length() - 1);
+				start = i+ 1; 
+			}
 		}
 		return result; 
+	}
+	
+	public static void main(String[] args) {
+		
 	}
 }
