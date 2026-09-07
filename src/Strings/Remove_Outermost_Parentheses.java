@@ -27,6 +27,7 @@ public class Remove_Outermost_Parentheses {
 	}
 	
 	public static void main(String[] args) {
-		
+		String s = "(()())(())"; 
+		System.out.println(removeOuter(s));
 	}
 }
