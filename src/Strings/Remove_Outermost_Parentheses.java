@@ -35,5 +35,7 @@ public class Remove_Outermost_Parentheses {
 	
 	// <<< Better Way >>> 
 	
-	
+	public static String removeOuter(String s) {
+		
+	}
 }
