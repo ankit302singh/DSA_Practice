@@ -78,6 +78,9 @@ public class Remove_Outermost_Parentheses {
 		for(int i = 0; i < s.length(); i++){
 			char ch = s.charAt(i);
 			if(ch == '('){
+				if(count > 0){
+					result.append(ch);
+				}
 				
 		return result.toString();
 	}
