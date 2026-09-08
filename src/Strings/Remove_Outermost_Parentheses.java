@@ -42,7 +42,13 @@ public class Remove_Outermost_Parentheses {
 		int count = 0; 
 		
 		for(int i=0; i < s.length(); i++) {
+			char ch = s.charAt(i);
 			
+			if(ch == '(') {
+				if(count > 0) {
+					result += ch; 
+				}
+			}
 		}
 		
 		return result; 
