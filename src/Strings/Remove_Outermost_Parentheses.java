@@ -61,4 +61,10 @@ public class Remove_Outermost_Parentheses {
 		
 		return result; 
 	}
+	
+	public static void main(String[] args) {
+		String s = "(()())(())";
+		
+		
+	}
 }
