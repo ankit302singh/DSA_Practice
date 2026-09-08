@@ -83,7 +83,9 @@ public class Remove_Outermost_Parentheses {
 				}
 				count++;
 			}
-			
+			else{
+				count--;
+				
 		return result.toString();
 	}
 
