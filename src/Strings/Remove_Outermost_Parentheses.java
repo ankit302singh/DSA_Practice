@@ -52,6 +52,10 @@ public class Remove_Outermost_Parentheses {
 			}
 			else {
 				count--; 
+				
+				if(count > 0) {
+					result += ch; 
+				}
 			}
 		}
 		
