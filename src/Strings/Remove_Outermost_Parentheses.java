@@ -34,7 +34,7 @@ public class Remove_Outermost_Parentheses {
 	*/
 	
 	// <<< Better Way >>> 
-	
+	/*
 	public static String removeOuter(String s) {
 		
 		String result = "";
@@ -66,5 +66,12 @@ public class Remove_Outermost_Parentheses {
 		String s = "(()())(())";
 		
 		System.out.println(removeOuter(s));
+	}
+	*/
+	
+	// <<< Optimal Way (Using StringBuilder) >>>
+	
+	public static String removeOuter(String s) {
+		
 	}
 }
