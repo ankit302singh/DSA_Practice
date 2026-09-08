@@ -37,5 +37,8 @@ public class Remove_Outermost_Parentheses {
 	
 	public static String removeOuter(String s) {
 		
+		String result = "";
+		
+		return result; 
 	}
 }
