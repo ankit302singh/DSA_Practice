@@ -81,7 +81,9 @@ public class Remove_Outermost_Parentheses {
 				if(count > 0){
 					result.append(ch);
 				}
-				
+				count++;
+			}
+			
 		return result.toString();
 	}
 
