@@ -85,7 +85,11 @@ public class Remove_Outermost_Parentheses {
 			}
 			else{
 				count--;
-				
+				if(count > 0){
+					result.append(ch);
+				}
+			}
+		}
 		return result.toString();
 	}
 
