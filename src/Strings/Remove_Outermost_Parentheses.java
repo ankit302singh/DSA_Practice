@@ -48,6 +48,10 @@ public class Remove_Outermost_Parentheses {
 				if(count > 0) {
 					result += ch; 
 				}
+				count++; 
+			}
+			else {
+				count--; 
 			}
 		}
 		
