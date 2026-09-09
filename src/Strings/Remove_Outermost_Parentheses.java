@@ -90,7 +90,4 @@ public class Remove_Outermost_Parentheses {
 				}
 			}
 		}
-		return result.toString();
-	}
-
-}
+		
