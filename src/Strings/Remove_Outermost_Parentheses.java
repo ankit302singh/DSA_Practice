@@ -92,5 +92,10 @@ public class Remove_Outermost_Parentheses {
 		}
 		return result.toString();
 	}
+	public static void main(String[] args) {
+		String s = "(()())(())";
+		String answer = removeOuter(s);
+		System.out.println(answer);
+	}
 
 }
