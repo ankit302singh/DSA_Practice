@@ -16,6 +16,11 @@ public class Reversed_Words_in_a_Given_String {
 				result.append(" ");
 			}
 		}
+		return result.toString();
+	}
+	
+	public static void main(String[]args) {
+		
 	}
 
 }
