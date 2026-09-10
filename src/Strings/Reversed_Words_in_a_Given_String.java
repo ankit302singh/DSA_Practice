@@ -27,7 +27,8 @@ public class Reversed_Words_in_a_Given_String {
 		
 		String answer = reverseWord(s);
 		
-		
+		System.out.println("Revers String: " + answer);
+		sc.close();
 		
 	}
 
