@@ -10,7 +10,11 @@ public class Reversed_Words_in_a_Given_String {
 		StringBuilder result = new StringBuilder();
 		
 		for(int i = words.length - 1; i >= 0; i--) {
+			result.append(words[i]);
 			
+			if(i != 0) {
+				result.append(" ");
+			}
 		}
 	}
 
