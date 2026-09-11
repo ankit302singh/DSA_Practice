@@ -55,7 +55,12 @@ public class Reversed_Words_in_a_Given_String {
 			while(i >= 0 && s.charAt(i) != ' ') {
 				i--; 
 			}
+			if(result.length() > 0) {
+				result.append(" ");
+			}
+			result.append(s.substring(i+1, end + 1));
 		}
+		return result.toString();
 	}
 
 }
