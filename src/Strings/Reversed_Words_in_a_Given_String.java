@@ -38,6 +38,13 @@ public class Reversed_Words_in_a_Given_String {
 	
 	public static String reverseWords(String s) {
 		
+		StringBuilder result = new StringBuilder();
+		
+		int i = s.length() - 1; 
+		
+		while(i >= 0) {
+			
+		}
 	}
 
 }
