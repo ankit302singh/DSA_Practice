@@ -49,6 +49,12 @@ public class Reversed_Words_in_a_Given_String {
 			if(i < 0) {
 				break; 
 			}
+			
+			int end = i ; 
+			
+			while(i >= 0 && s.charAt(i) != ' ') {
+				i--; 
+			}
 		}
 	}
 
