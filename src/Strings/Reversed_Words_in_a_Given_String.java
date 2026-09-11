@@ -68,6 +68,10 @@ public class Reversed_Words_in_a_Given_String {
 		
 		System.out.println("Enger a String: ");
 		String s = sc.nextLine();
+		
+		System.out.println("Reversed String: "+ reverseWords(s));
+		
+		sc.close();
 	}
 
 }
