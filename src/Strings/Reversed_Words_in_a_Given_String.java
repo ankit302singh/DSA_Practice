@@ -35,6 +35,7 @@ public class Reversed_Words_in_a_Given_String {
 	*/
 	
 	// << Better way >> 
+	/*
 	
 	public static String reverseWords(String s) {
 		
@@ -66,12 +67,18 @@ public class Reversed_Words_in_a_Given_String {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enger a String: ");
+		System.out.println("Enter a String: ");
 		String s = sc.nextLine();
 		
 		System.out.println("Reversed String: "+ reverseWords(s));
 		
 		sc.close();
 	}
+	*/
+	
+	// <<< Optimal Way >>> 
+	// 1. Reverse the complete string
+	// 2. Reverse every Individual word. 
+	// 3. Remove extra spaces. 
 
 }
