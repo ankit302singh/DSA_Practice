@@ -96,6 +96,14 @@ public class Reversed_Words_in_a_Given_String {
 				start = i + 1; 
 			}
 		}
+		StringBuilder result = new StringBuilder();
+		
+		for(int i = 0; i < arr.length; i++) {
+			if(arr[i] != ' ' || (result.length() > 0 && result.charAt(result.length() - 1) != ' ')) {
+				result.append(arr[i]);
+			}
+		}
+		return result.toString().trim(); 
 	}
 
 }
