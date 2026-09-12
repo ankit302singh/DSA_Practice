@@ -87,6 +87,15 @@ public class Reversed_Words_in_a_Given_String {
 		char[] arr = s.toCharArray();
 		
 		reverse(arr, 0 , arr.length - 1);
+		int start = 0; 
+		
+		for(int i = 0; i <= arr.length; i++) {
+			if(i == arr.length || arr[i] == ' ') {
+				reverse(arr, start, i - 1);
+				
+				start = i + 1; 
+			}
+		}
 	}
 
 }
