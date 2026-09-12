@@ -80,5 +80,13 @@ public class Reversed_Words_in_a_Given_String {
 	// 1. Reverse the complete string
 	// 2. Reverse every Individual word. 
 	// 3. Remove extra spaces. 
+	
+	public static String reverseWords(String s) {
+		s = s.trim();
+		
+		char[] arr = s.toCharArray();
+		
+		reverse(arr, 0 , arr.length - 1);
+	}
 
 }
