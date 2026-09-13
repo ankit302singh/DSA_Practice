@@ -116,5 +116,9 @@ public class Reversed_Words_in_a_Given_String {
 			right--; 
 		}
 	}
+	
+	public static void main(String[] args) {
+		
+	}
 
 }
