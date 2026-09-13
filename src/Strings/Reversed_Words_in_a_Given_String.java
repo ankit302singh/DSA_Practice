@@ -105,5 +105,9 @@ public class Reversed_Words_in_a_Given_String {
 		}
 		return result.toString().trim(); 
 	}
+	
+	public static void reverse(char[] arr, int left, int right) {
+		
+	}
 
 }
