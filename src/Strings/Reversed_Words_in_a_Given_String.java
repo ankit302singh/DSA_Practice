@@ -121,6 +121,11 @@ public class Reversed_Words_in_a_Given_String {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter String: ");
+		
+		String s = sc.nextLine();
+		
+		System.out.println("Rverse String: " + reverseWords(s));
+		sc.close();
 	}
 
 }
