@@ -118,7 +118,9 @@ public class Reversed_Words_in_a_Given_String {
 	}
 	
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Enter String: ");
 	}
 
 }
