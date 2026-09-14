@@ -22,7 +22,9 @@ public class Largest_Odd_Number_In_String {
 		return largest; 
 	}
 	public static void main(String[] args) {
+		String num = "35420";
 		
+		System.out.println(largestOdd(num));
 	}
 
 }
