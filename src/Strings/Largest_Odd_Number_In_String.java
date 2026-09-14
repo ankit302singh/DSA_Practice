@@ -6,7 +6,11 @@ public class Largest_Odd_Number_In_String {
 		
 		for(int i = 0; i < num.length(); i++) {
 			for(int j = i+1; j <= num.length(); j++) {
+				String current = num.substring(i, j);
 				
+				if(current.charAt(current.length() - 1) % 2 == 1) {
+					
+				}
 			}
 		}
 		return largest; 
