@@ -13,6 +13,9 @@ public class Largest_Odd_Number_In_String {
 						largest = current; 
 						
 					}
+					else if(current.length() == largest.length() && current.compareTo(largest) > 0) {
+						largest = current; 
+					}
 				}
 			}
 		}
