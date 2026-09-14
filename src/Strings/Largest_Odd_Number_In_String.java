@@ -9,7 +9,10 @@ public class Largest_Odd_Number_In_String {
 				String current = num.substring(i, j);
 				
 				if(current.charAt(current.length() - 1) % 2 == 1) {
-					
+					if(largest.equals("") || current.length() > largest.length()) {
+						largest = current; 
+						
+					}
 				}
 			}
 		}
