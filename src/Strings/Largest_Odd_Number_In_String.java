@@ -32,6 +32,10 @@ public class Largest_Odd_Number_In_String {
 	// <<< Better Way >>> 
 	
 	public static String largestOdd(String num) {
+		int lastIndex = -1; 
 		
+		for(int i = 0; i < num.length(); i++) {
+			
+		}
 	}
 }
