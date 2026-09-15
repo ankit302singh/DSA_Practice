@@ -44,6 +44,9 @@ public class Largest_Odd_Number_In_String {
 		if(lastIndex == -1) {
 			return ""; 
 		}
+		return num.substring(0, lastIndex + 1);
+	}
+	public static void main(String[] args) {
 		
 	}
 }
