@@ -1,6 +1,7 @@
 package Strings;
 
 public class Largest_Odd_Number_In_String {
+	/*
 	public static String largestOdd(String num) {
 		String largest = "";
 		
@@ -26,5 +27,11 @@ public class Largest_Odd_Number_In_String {
 		
 		System.out.println(largestOdd(num));
 	}
-
+    */
+	
+	// <<< Better Way >>> 
+	
+	public static String largestOdd(String num) {
+		
+	}
 }
