@@ -41,5 +41,9 @@ public class Largest_Odd_Number_In_String {
 				lastIndex = i; 
 			}
 		}
+		if(lastIndex == -1) {
+			return ""; 
+		}
+		
 	}
 }
