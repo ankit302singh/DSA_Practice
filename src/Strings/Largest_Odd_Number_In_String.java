@@ -35,7 +35,11 @@ public class Largest_Odd_Number_In_String {
 		int lastIndex = -1; 
 		
 		for(int i = 0; i < num.length(); i++) {
+			int digit = num.charAt(i) - '0';
 			
+			if(digit % 2 == 1) {
+				lastIndex = i; 
+			}
 		}
 	}
 }
