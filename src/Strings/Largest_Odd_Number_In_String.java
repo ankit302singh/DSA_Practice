@@ -47,6 +47,8 @@ public class Largest_Odd_Number_In_String {
 		return num.substring(0, lastIndex + 1);
 	}
 	public static void main(String[] args) {
+		String num = "35420"; 
 		
+		System.out.println(largestOdd(num));
 	}
 }
