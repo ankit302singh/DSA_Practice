@@ -1,5 +1,5 @@
 package Strings;
-
+import java.util.Hashset; 
 public class Longest_Substring_Without_Repeating_Characters {
     public static int longestSubstring(String s){
         int maxLength = 0;
@@ -10,8 +10,11 @@ public class Longest_Substring_Without_Repeating_Characters {
                 if(set.contains(s.charAt(j))){
                     break;
                 }
-                
+                set.add(s.charAt(j));
+
+                maxLength = Math.max(maxLength, j-i+1);
             }
         }
+        return maxLength;
     }
 }
