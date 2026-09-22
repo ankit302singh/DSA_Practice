@@ -7,6 +7,9 @@ public class Longest_Substring_Without_Repeating_Characters {
             HashSet<Character> set = new HashSet<>();
 
             for(int j = i; j < s.length(); j++){
+                if(set.contains(s.charAt(j))){
+                    break;
+                }
                 
             }
         }
