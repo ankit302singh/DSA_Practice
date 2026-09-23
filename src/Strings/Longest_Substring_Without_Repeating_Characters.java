@@ -39,7 +39,11 @@ public class Longest_Substring_Without_Repeating_Characters {
         HashSet<Character> set = new HashSet<>();
 
         while(right < s.length()){
-            
+            char current = s.charAt(right);
+
+            while(set.contains(current)){
+                set.remove(s.charAt(left));
+            }
         }
     }
 }
