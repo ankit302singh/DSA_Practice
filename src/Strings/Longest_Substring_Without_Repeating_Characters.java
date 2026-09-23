@@ -48,7 +48,11 @@ public class Longest_Substring_Without_Repeating_Characters {
             s.add(current);
 
             maxLength = Math.max(maxlength, right - left + 1);
-            right++; 
+            right++;
         }
+        return maxLength;
+    }
+    public static void main(String[] args){
+        
     }
 }
