@@ -34,6 +34,12 @@ public class Longest_Substring_Without_Repeating_Characters {
         int left = 0;
         int right = 0;
 
-        int maxLength = 0; 
+        int maxLength = 0;
+
+        HashSet<Character> set = new HashSet<>();
+
+        while(right < s.length()){
+            
+        }
     }
 }
