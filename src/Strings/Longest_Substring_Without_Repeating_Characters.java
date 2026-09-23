@@ -53,6 +53,7 @@ public class Longest_Substring_Without_Repeating_Characters {
         return maxLength;
     }
     public static void main(String[] args){
-        
+        String s = "abcabcbb";
+        int answer = longestSubstring(s);
     }
 }
