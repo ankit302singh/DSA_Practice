@@ -1,6 +1,8 @@
 package Strings;
-import java.util.Hashset;
+import java.util.HashSet;
+
 public class Longest_Substring_Without_Repeating_Characters {
+    /*
     public static int longestSubstring(String s){
         int maxLength = 0;
         for(int i = 0; i < s.length(); i++){
@@ -19,5 +21,16 @@ public class Longest_Substring_Without_Repeating_Characters {
     }
     public static void main(String[] args){
         String s = "abcabcbb";
+
+        int answer = longestSubstring(s);
+        System.out.println("longest substring: " + answer);
+    }
+
+     */
+
+    // << Better Way --> Using HashSet + Sliding Window >>
+
+    public static int longestSubstring(String s){
+        
     }
 }
