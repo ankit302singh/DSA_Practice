@@ -31,6 +31,9 @@ public class Longest_Substring_Without_Repeating_Characters {
     // << Better Way --> Using HashSet + Sliding Window >>
 
     public static int longestSubstring(String s){
-        
+        int left = 0;
+        int right = 0;
+
+        int maxLength = 0; 
     }
 }
