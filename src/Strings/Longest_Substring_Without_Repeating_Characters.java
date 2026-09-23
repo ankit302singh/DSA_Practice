@@ -30,7 +30,7 @@ public class Longest_Substring_Without_Repeating_Characters {
 
     // << Better Way --> Using HashSet + Sliding Window >>
 
-    /*
+    
     public static int longestSubstring(String s){
         int left = 0;
         int right = 0;
@@ -59,9 +59,5 @@ public class Longest_Substring_Without_Repeating_Characters {
         System.out.println("longest Substring: " + answer);
     }
 
-     */
 
-    // << Optimal Way (Sliding window + Character Index>>
-
-    
 }
