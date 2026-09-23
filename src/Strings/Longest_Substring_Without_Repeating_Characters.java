@@ -43,7 +43,12 @@ public class Longest_Substring_Without_Repeating_Characters {
 
             while(set.contains(current)){
                 set.remove(s.charAt(left));
+                left++;
             }
+            s.add(current);
+
+            maxLength = Math.max(maxlength, right - left + 1);
+            right++; 
         }
     }
 }
