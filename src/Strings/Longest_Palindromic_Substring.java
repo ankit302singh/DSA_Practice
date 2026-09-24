@@ -9,7 +9,9 @@ public class Longest_Palindromic_Substring {
                 String substring = s.substring(i, j+1);
 
                 if(isPalindrome(substring)){
-                    
+                    if(substring.length() > longest.length()){
+                        longest = substring; 
+                    }
                 }
             }
         }
