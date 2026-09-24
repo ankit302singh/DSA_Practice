@@ -1,5 +1,7 @@
 package Strings;
 
+import java.util.Scanner;
+
 public class Longest_Palindromic_Substring {
     public static boolean isPalindrome(String s){
         int left = 0;
@@ -7,9 +9,17 @@ public class Longest_Palindromic_Substring {
 
         while(left < right){
             if(s.charAt(left) != s.charAt(right)){
-                return false; 
+                return false;
             }
+            left++;
+            right--;
         }
         return  true;
+    }
+
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a String: ");
+
     }
 }
