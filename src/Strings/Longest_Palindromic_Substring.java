@@ -10,12 +10,16 @@ public class Longest_Palindromic_Substring {
 
                 if(isPalindrome(substring)){
                     if(substring.length() > longest.length()){
-                        longest = substring; 
+                        longest = substring;
                     }
                 }
             }
         }
         return longest;
+    }
+    public boolean isPalindrome(String s ){
+
+        return true; 
     }
 
 }
