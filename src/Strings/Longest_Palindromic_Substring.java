@@ -3,6 +3,7 @@ package Strings;
 import java.util.Scanner;
 
 public class Longest_Palindromic_Substring {
+	/*
     public static boolean isPalindrome(String s){
         int left = 0;
         int right = s.length() - 1;
@@ -22,4 +23,11 @@ public class Longest_Palindromic_Substring {
         System.out.print("Enter a String: ");
 
     }
+    */
+	
+	// << Better way via Dynamic programming >> 
+	
+	public static void main(String[] args) {
+		
+	}
 }
