@@ -45,7 +45,9 @@ public class Longest_Palindromic_Substring {
 		}
 		
 		for(int length = 2; length <= n; length++) {
-			
+			for(int i = 0; i <= n - length; i++) {
+				int j = i + length - 1; 
+			}
 		}
 	}
 }
