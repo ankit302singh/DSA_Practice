@@ -39,5 +39,13 @@ public class Longest_Palindromic_Substring {
 		
 		int start = 0; 
 		int maxLength = 1; 
+		
+		for(int i=0; i < n; i++) {
+			dp[i][i] = true; 
+		}
+		
+		for(int length = 2; length <= n; length++) {
+			
+		}
 	}
 }
