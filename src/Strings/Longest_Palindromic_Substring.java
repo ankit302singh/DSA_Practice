@@ -35,5 +35,9 @@ public class Longest_Palindromic_Substring {
 		
 		int n = str.length();
 		
+		boolean[][] dp = new boolean[n][n];
+		
+		int start = 0; 
+		int maxLength = 1; 
 	}
 }
