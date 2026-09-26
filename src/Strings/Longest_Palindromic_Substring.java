@@ -48,7 +48,7 @@ public class Longest_Palindromic_Substring {
 			for(int i = 0; i <= n - length; i++) {
 				int j = i + length - 1; 
 				
-				if(str.charAt(i == str.charAt(j))) {
+				if(str.charAt(i) == str.charAt(j)) {
 					if(length == 2 || dp[i + 1][j - 1]) {
 						dp[i][j] = true; 
 						
@@ -60,6 +60,9 @@ public class Longest_Palindromic_Substring {
 				}
 			}
 		}
+		String longest = str.substring(start, start + maxLength);
 		
+		System.out.println("Longest : "+ longest);
+		sc.close();
 	}
 }
