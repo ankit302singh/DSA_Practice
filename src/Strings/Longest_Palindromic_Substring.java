@@ -47,7 +47,19 @@ public class Longest_Palindromic_Substring {
 		for(int length = 2; length <= n; length++) {
 			for(int i = 0; i <= n - length; i++) {
 				int j = i + length - 1; 
+				
+				if(str.charAt(i == str.charAt(j))) {
+					if(length == 2 || dp[i + 1][j - 1]) {
+						dp[i][j] = true; 
+						
+						if(length > maxLength) {
+							start = i; 
+							maxLength = length; 
+						}
+					}
+				}
 			}
 		}
+		
 	}
 }
