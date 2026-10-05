@@ -77,5 +77,11 @@ public class Longest_Palindromic_Substring {
 		
 		int start = 0; 
 		int maxLength = 0; 
+		
+		for(int i =0; i < str.length(); i++) {
+			// for odd one 
+			int left = i; 
+			int right = i; 
+		}
 	}
 }
