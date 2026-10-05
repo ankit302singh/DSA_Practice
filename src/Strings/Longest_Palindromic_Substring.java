@@ -82,6 +82,12 @@ public class Longest_Palindromic_Substring {
 			// for odd one 
 			int left = i; 
 			int right = i; 
+			
+			while(left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
+				left--; 
+				right++ ; 
+			}
+				
 		}
 	}
 }
