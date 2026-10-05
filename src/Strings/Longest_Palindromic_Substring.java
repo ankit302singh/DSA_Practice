@@ -102,6 +102,11 @@ public class Longest_Palindromic_Substring {
 				left--; 
 				right++; 
 			}
+			length = right - left - 1; 
+			if(length > maxLength) {
+				maxLength = length; 
+				start = left + 1; 
+			}
 				
 		}
 	}
