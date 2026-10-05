@@ -88,10 +88,19 @@ public class Longest_Palindromic_Substring {
 				right++ ; 
 			}
 			
-			int length = right - left + 1; 
+			int length = right - left - 1; 
 			if(length > maxLength) {
 				maxLength = length; 
 				start = left + 1; 
+			}
+			
+			// for Even one 
+			left = i; 
+			right = i + 1; 
+			
+			while(left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
+				left--; 
+				right++; 
 			}
 				
 		}
