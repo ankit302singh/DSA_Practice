@@ -71,5 +71,11 @@ public class Longest_Palindromic_Substring {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter String: ");
+		String str = sc.nextLine();
+		
+		int start = 0; 
+		int maxLength = 0; 
 	}
 }
