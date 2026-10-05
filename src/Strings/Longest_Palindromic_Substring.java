@@ -26,7 +26,7 @@ public class Longest_Palindromic_Substring {
     */
 	
 	// << Better way via Dynamic programming >> 
-	
+	/*
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -64,5 +64,12 @@ public class Longest_Palindromic_Substring {
 		
 		System.out.println("Longest : "+ longest);
 		sc.close();
+	}
+	*/
+	
+	// Optimal way 
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 	}
 }
