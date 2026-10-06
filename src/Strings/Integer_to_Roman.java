@@ -16,6 +16,13 @@ public class Integer_to_Roman {
 		};
 		String result = "";
 		
+		for(int i =0; i < value.length; i++) {
+			while(num >= value[i]) {
+				result = result + symbol[i];
+				num = num - value[i];
+			}
+		}
+		
 	}
 
 }
