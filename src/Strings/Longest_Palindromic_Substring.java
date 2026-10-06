@@ -109,5 +109,8 @@ public class Longest_Palindromic_Substring {
 			}
 				
 		}
+		String longest = str.substring(start, start + maxLength);
+		System.out.println("Longest : " + longest);
+		sc.close();
 	}
 }
