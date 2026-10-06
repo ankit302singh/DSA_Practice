@@ -12,8 +12,9 @@ public class Integer_to_Roman {
 		};
 		
 		String[] symbol = {
-				
+			"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"	
 		};
+		String result = "";
 		
 	}
 
