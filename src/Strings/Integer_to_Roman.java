@@ -46,8 +46,9 @@ public class Integer_to_Roman {
 			int count = num / values[i]; 
 			
 			for(int j = 0; j < count; j++) {
-				
+				result.append(symbols[i]);
 			}
+			num = num % values[i];
 		}
 		
 		
