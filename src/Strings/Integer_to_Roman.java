@@ -43,7 +43,11 @@ public class Integer_to_Roman {
 		StringBuilder result = new StringBuilder();
 		
 		for(int i = 0; i < values.length; i++) {
+			int count = num / values[i]; 
 			
+			for(int j = 0; j < count; j++) {
+				
+			}
 		}
 		
 		
