@@ -2,6 +2,7 @@ package Array_and_Hashing;
 import java.util.Scanner; 
 
 public class Contains_Duplicate {
+	/*
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter size: ");
@@ -29,6 +30,16 @@ public class Contains_Duplicate {
 		}
 		System.out.println("Contains Duplicate: "+ duplicate);
 		sc.close();
+	}
+	*/
+	
+	// << Better Version (Sort the Array) >> 
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter size: ");
+		
 	}
 
 }
