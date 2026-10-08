@@ -39,7 +39,9 @@ public class Contains_Duplicate {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Enter size: ");
+		int n = sc.nextInt();
 		
+		int[] arr = new int[n];
 	}
 
 }
