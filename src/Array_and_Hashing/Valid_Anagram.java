@@ -48,7 +48,18 @@ public class Valid_Anagram {
 			System.out.println("Not a valid Aanagram");
 		}
 		else {
+			Map<Character, Integer> frequency = new HashMap<>();
 			
+			for(int i = 0; i < s1.length(); i++) {
+				char ch = s1.charAt(i);
+				
+				frequency.put(ch, frequency.getOrDefault(ch, 0)+1);
+			}
+			for(int i = 0; i < s2.length() ; i++) {
+				char ch = s2.charAt(i);
+				
+				
+			}
 		}
 	}
 
