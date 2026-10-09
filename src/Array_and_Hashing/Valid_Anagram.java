@@ -21,7 +21,14 @@ public class Valid_Anagram {
 			Arrays.sort(arr1);
 			Arrays.sort(arr2);
 			
+			if(Arrays.equals(arr1, arr2)) {
+				System.out.println("Valid ");
+			}			else {
+				System.out.println("Not Valid");
+			}
+			
 		}
+		sc.close();
 	}
 
 }
