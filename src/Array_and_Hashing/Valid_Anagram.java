@@ -34,6 +34,7 @@ public class Valid_Anagram {
 	*/
 	
 	// << Better Way -- Using HashMap >> 
+	/*
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -58,9 +59,23 @@ public class Valid_Anagram {
 			for(int i = 0; i < s2.length() ; i++) {
 				char ch = s2.charAt(i);
 				
-				
+				if(!frequency.containsKey(ch) || frequency.get(ch) == 0) {
+					System.out.println("Not a valid Anagram");
+					sc.close();
+					return; 
+				}
+				frequency.put(ch, frequency.get(ch) - 1);
 			}
+			System.out.println("Valid Anagram");
 		}
+		sc.close();
+	}
+	*/
+	
+	// <<< Optimal Way -- Using an Integer Array >>> 
+	
+	public static void main(String[] args) {
+		
 	}
 
 }
