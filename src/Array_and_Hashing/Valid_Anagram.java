@@ -75,6 +75,13 @@ public class Valid_Anagram {
 	// <<< Optimal Way -- Using an Integer Array >>> 
 	
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter 1st string: ");
+		String s1 = sc.next().toLowerCase();
+		
+		System.out.print("Enter 2nd String: ");
+		String s2 = sc.next().toLowerCase();
 		
 	}
 
