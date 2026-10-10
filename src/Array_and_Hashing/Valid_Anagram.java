@@ -83,6 +83,12 @@ public class Valid_Anagram {
 		System.out.print("Enter 2nd String: ");
 		String s2 = sc.next().toLowerCase();
 		
+		if(s1.length() != s2.length()) {
+			System.out.println("Not a valid one");
+			sc.close();
+			return; 
+		}
+		
 	}
 
 }
