@@ -88,6 +88,7 @@ public class Valid_Anagram {
 			sc.close();
 			return; 
 		}
+		int[] count = new int[26];
 		
 	}
 
