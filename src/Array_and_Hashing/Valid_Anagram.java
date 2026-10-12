@@ -88,7 +88,21 @@ public class Valid_Anagram {
 			sc.close();
 			return; 
 		}
-		
+		int[] count = new int[26];
+		for(int i = 0; i < s1.length(); i++){
+			count[s1.charAt(i) - 'a']++;
+			count[s2.charAt(i) - 'a']--;
+		}
+		for(int i = 0; i < 26; i++){
+			if(count[i] != 0){
+				System.out.println("Not a Valid_Anagram");
+				sc.close();
+				return;
+			}
+
+		}
+		System.out.println("Valid_Anagram");
+		sc.close();
 	}
 
 }
