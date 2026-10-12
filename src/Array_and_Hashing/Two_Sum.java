@@ -18,6 +18,16 @@ public class Two_Sum {
 		int target = sc.nextInt();
 		
 		boolean found = false; 
+		
+		for(int i = 0; i < n ; i++) {
+			for(int j = i + 1; j < n ; j++) {
+				if(arr[i] + arr[j] == target) {
+					System.out.println("Indices" + i + "and"+ j);
+					found = true; 
+					break; 
+				}
+			}
+		}
 	}
 
 }
