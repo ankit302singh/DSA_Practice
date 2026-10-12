@@ -14,6 +14,10 @@ public class Two_Sum {
 		for(int i = 0; i < n; i++) {
 			arr[i] = sc.nextInt();
 		}
+		System.out.print("Enter target: ");
+		int target = sc.nextInt();
+		
+		boolean found = false; 
 	}
 
 }
