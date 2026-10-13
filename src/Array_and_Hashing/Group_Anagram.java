@@ -7,6 +7,9 @@ public class Group_Anagram {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter number of word: ");
+		int n = sc.nextInt();
 	}
 
 }
