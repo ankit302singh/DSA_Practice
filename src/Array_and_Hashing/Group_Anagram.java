@@ -30,6 +30,8 @@ public class Group_Anagram {
 			}
 			map.get(key).add(word);
 		}
+		List<List<String>> result = new ArrayList<>(map.values());
+		
 	}
 
 }
