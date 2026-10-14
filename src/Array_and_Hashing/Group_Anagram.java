@@ -10,6 +10,14 @@ public class Group_Anagram {
 		
 		System.out.print("Enter number of word: ");
 		int n = sc.nextInt();
+		
+		String[] words = new String[n];
+		
+		System.out.println("Enter words: ");
+		for(int i = 0; i < n; i++) {
+			words[i] = sc.next();
+		}
+		
 	}
 
 }
