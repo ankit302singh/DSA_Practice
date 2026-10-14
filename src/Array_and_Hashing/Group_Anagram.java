@@ -20,10 +20,15 @@ public class Group_Anagram {
 		Map<String, List<String>> map = new HashMap<>();
 		
 		for(String word : words) {
-			char[] chars = words.toCharArray();
+			char[] chars = word.toCharArray();
 			
 			Arrays.sort(chars);
 			String key = new String();
+			
+			if(!map.containsKey(key)) {
+				map.put(key, new ArrayList<>());
+			}
+			map.get(key).add(word);
 		}
 	}
 
