@@ -53,6 +53,11 @@ public class Group_Anagram {
 		Map<String, List<String>> map = new HashMap<>();
 		for(String word : words){
 			int[] freq = new int[26];
+
+			for(int i = 0; i < word.length(); i++){
+				char ch = word.charAt(i);
+				freq[ch - 'a']++; 
+			}
 		}
 	}
 
