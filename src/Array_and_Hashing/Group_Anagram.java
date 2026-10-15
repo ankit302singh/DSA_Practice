@@ -23,7 +23,7 @@ public class Group_Anagram {
 			char[] chars = word.toCharArray();
 			
 			Arrays.sort(chars);
-			String key = new String();
+			String key = new String(chars);
 			
 			if(!map.containsKey(key)) {
 				map.put(key, new ArrayList<>());
@@ -31,6 +31,8 @@ public class Group_Anagram {
 			map.get(key).add(word);
 		}
 		List<List<String>> result = new ArrayList<>(map.values());
+		System.out.println("Group Anagram: " + result);
+		sc.close();
 		
 	}
 
