@@ -50,6 +50,10 @@ public class Group_Anagram {
 		for(int i = 0; i < n; i++){
 			words[i] = sc.next();
 		}
+		Map<String, List<String>> map = new HashMap<>();
+		for(String word : words){
+			int[] freq = new int[26];
+		}
 	}
 
 }
