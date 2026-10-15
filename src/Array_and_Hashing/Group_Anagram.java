@@ -56,7 +56,12 @@ public class Group_Anagram {
 
 			for(int i = 0; i < word.length(); i++){
 				char ch = word.charAt(i);
-				freq[ch - 'a']++; 
+				freq[ch - 'a']++;
+			}
+			StringBuilder keyBuilder = new StringBuilder();
+
+			for(int count : freq){
+				keyBuilder.append(count).append('#');
 			}
 		}
 	}
