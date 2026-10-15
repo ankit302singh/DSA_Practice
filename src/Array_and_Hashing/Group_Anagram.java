@@ -64,7 +64,13 @@ public class Group_Anagram {
 				keyBuilder.append(count).append('#');
 			}
 			String key = keyBuilder.toString();
+
+			if(!map.containsKey(key)){
+				map.put(key, new ArrayList<>());
+			}
+			map.get(key).add(word);
 		}
+		List<List<String>> result = new ArrayList<>(map.values());
 	}
 
 }
