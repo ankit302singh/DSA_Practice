@@ -63,6 +63,7 @@ public class Group_Anagram {
 			for(int count : freq){
 				keyBuilder.append(count).append('#');
 			}
+			String key = keyBuilder.toString();
 		}
 	}
 
