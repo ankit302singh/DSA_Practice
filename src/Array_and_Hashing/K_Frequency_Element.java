@@ -16,5 +16,11 @@ public class K_Frequency_Element {
         }
         System.out.println("Enter K: ");
         int k = sc.nextInt();
+
+        if( k < 1 || k > n){
+            System.out.println("Invalid K");
+            sc.close();
+            return;
+        }
     }
 }
