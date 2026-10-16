@@ -14,6 +14,7 @@ public class K_Frequency_Element {
         for(int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
-        
+        System.out.println("Enter K: ");
+        int k = sc.nextInt();
     }
 }
