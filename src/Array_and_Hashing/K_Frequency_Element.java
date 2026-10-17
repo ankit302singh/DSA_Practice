@@ -22,5 +22,42 @@ public class K_Frequency_Element {
             sc.close();
             return;
         }
+        int[] frequency = new int[n];
+        boolean[] selected = new boolean[n];
+
+        for(int i = 0; i < n; i++){
+            if(selected[i]){
+                continue;
+            }
+            frequency[i] = 1;
+
+            for(int j = i + 1; j < n ; j++){
+                if(arr[i] == arr[j]){
+                    frequency[i]++;
+                    selected[j] = true;
+                }
+            }
+        }
+        int[] result = new int[k];
+        boolean[] used = new boolean[n];
+
+        for(int i = 0; i < k; i++){
+            int maxfreq = -1;
+            int maxIndex = -1;
+
+            for(int j = 0; j < n; j++){
+                if(!selected[j] && !used[j] && frequency[j] > maxfreq){
+                    maxfreq = frequency[j];
+                    maxIndex = j;
+                }
+            }
+            result[i] = arr[maxIndex];
+            used[maxIndex] = true;
+        }
+        System.out.println("Top K element: ");
+        for(int value : result){
+            System.out.print(value + " ");
+        }
+        sc.close();
     }
 }
