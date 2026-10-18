@@ -32,6 +32,8 @@ public class Group_Anagram {
 		}
 		List<List<String>> result = new ArrayList<>(map.values());
 		
+		System.out.println("Group Anagram: " + result); 
+		sc.close();
 	}
 
 }
