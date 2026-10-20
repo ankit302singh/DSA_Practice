@@ -1,5 +1,5 @@
 package Array_and_Hashing;
-import java.util.Scanner; 
+import java.util.*; 
 
 public class K_Frequent_Element {
 	// << Better Way - HashMap + Sorting >> 
@@ -17,6 +17,8 @@ public class K_Frequent_Element {
 	}
 	System.out.print("Enter K: ");
 	int k = sc.nextInt();
+	
+	Map<Integer, Integer> map = new HashMap<>();
 	
 	}
 }
