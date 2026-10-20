@@ -29,6 +29,10 @@ public class K_Frequent_Element {
 		sc.close();
 		return; 
 	}
+	List<Integer> elements = new ArrayList<>(map.keySet());
+	
+	elements.sort((a,b) -> Integer.compare(map.get(b), map.get(a)));
+	
 	
 	}
 }
