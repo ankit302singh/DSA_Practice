@@ -60,5 +60,12 @@ public class K_Frequent_Element {
 		int k = sc.nextInt();
 		
 		Map<Integer, Integer> map = new HashMap<>();
+		
+		for(int num : arr) {
+			map.put(num, map.getOrDefault(num, 0)+1);
+		}
+		if(k < 1 || k > map.size()) {
+			
+		}
 	}
 }
