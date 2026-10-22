@@ -65,7 +65,9 @@ public class K_Frequent_Element {
 			map.put(num, map.getOrDefault(num, 0)+1);
 		}
 		if(k < 1 || k > map.size()) {
-			
+			System.out.println("Invalid K");
+			sc.close();
+			return; 
 		}
 	}
 }
