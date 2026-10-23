@@ -77,6 +77,13 @@ public class K_Frequent_Element {
 			if(buckets[freq] == null) {
 				buckets[freq] = new ArrayList<>();
 			}
+			buckets[freq].add(num);
+		}
+		System.out.print("Top K frequent elements: ");
+		int count = 0; 
+		
+		for(int freq = n; freq >= 1 && count < k; freq--) {
+			
 		}
 		
 	}
