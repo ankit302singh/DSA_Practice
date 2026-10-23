@@ -70,5 +70,14 @@ public class K_Frequent_Element {
 			return; 
 		}
 		List<Integer>[] buckets = new ArrayList[n+1];
+		
+		for(int num : map.keySet()) {
+			int freq = map.get(num);
+			
+			if(buckets[freq] == null) {
+				buckets[freq] = new ArrayList<>();
+			}
+		}
+		
 	}
 }
