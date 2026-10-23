@@ -83,7 +83,11 @@ public class K_Frequent_Element {
 		int count = 0; 
 		
 		for(int freq = n; freq >= 1 && count < k; freq--) {
-			
+			if(buckets[freq] != null) {
+				for(int num : buckets[freq]) {
+					System.out.print(num + " ");
+				}
+			}
 		}
 		
 	}
