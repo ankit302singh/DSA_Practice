@@ -86,9 +86,14 @@ public class K_Frequent_Element {
 			if(buckets[freq] != null) {
 				for(int num : buckets[freq]) {
 					System.out.print(num + " ");
+					count++; 
+					
+					if(count == k) {
+						break; 
+					}
 				}
 			}
 		}
-		
+		sc.close();
 	}
 }
