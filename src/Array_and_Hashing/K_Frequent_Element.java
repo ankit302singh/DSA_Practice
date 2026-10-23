@@ -69,5 +69,6 @@ public class K_Frequent_Element {
 			sc.close();
 			return; 
 		}
+		List<Integer>[] buckets = new ArrayList[n+1];
 	}
 }
