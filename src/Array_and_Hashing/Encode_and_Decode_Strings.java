@@ -7,7 +7,12 @@ public class Encode_and_Decode_Strings {
 		
 		for(int i = 0; i < str.size(); i++) {
 			sb.append(str.get(i));
+			
+			if(i != str.size() - 1) {
+				sb.append("#");
+			}
 		}
+		return sb.toString();
 	}
 
 }
