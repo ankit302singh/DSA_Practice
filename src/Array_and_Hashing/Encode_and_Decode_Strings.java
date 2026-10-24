@@ -2,5 +2,8 @@ package Array_and_Hashing;
 import java.util.*; 
 
 public class Encode_and_Decode_Strings {
+	public static String encode(List<String> str) {
+		StringBuilder sb = new StringBuilder();
+	}
 
 }
