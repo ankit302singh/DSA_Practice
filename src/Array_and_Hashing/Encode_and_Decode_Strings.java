@@ -14,5 +14,9 @@ public class Encode_and_Decode_Strings {
 		}
 		return sb.toString();
 	}
+	
+	public static List<String> decode(String encoded){
+		return Arrays.asList(encoded, split("#", -1));
+	}
 
 }
