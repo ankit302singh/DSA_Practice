@@ -18,5 +18,12 @@ public class Encode_and_Decode_Strings {
 	public static List<String> decode(String encoded){
 		return Arrays.asList(encoded, split("#", -1));
 	}
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter number of String: ");
+		int n = Integer.parseInt(sc.nextLine());
+	}
 
 }
