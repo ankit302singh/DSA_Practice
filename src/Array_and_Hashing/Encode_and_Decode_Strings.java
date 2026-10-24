@@ -16,7 +16,7 @@ public class Encode_and_Decode_Strings {
 	}
 	
 	public static List<String> decode(String encoded){
-		return Arrays.asList(encoded, split("#", -1));
+		return Arrays.asList(encoded.split("#", -1));
 	}
 	
 	public static void main(String[] args) {
@@ -24,6 +24,13 @@ public class Encode_and_Decode_Strings {
 		
 		System.out.print("Enter number of String: ");
 		int n = Integer.parseInt(sc.nextLine());
+
+		List<String> str =  new ArrayList<>();
+		System.out.println("Enter String: ");
+
+		for(int i = 0; i < n; i++){
+			
+		}
 	}
 
 }
