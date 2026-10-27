@@ -2,6 +2,7 @@ package Array_and_Hashing;
 import java.util.*; 
 
 public class Encode_and_Decode_Strings {
+	/*
 	public static String encode(List<String> str) {
 		StringBuilder sb = new StringBuilder();
 		
@@ -29,8 +30,21 @@ public class Encode_and_Decode_Strings {
 		System.out.println("Enter String: ");
 
 		for(int i = 0; i < n; i++){
-			
+			str.add(sc.nextLine());
 		}
+		String encoded = encode(str);
+		System.out.println("Encode_Strings: "+ encoded);
+
+		List<String> decoded = decode(encoded);
+		System.out.println("Decode_Strings: " + decoded);
+		sc.close();
 	}
 
+ */
+
+	// << Optimal Way -- Length- prefix encoding>>
+
+	public static String encode(List<String> strs){
+		
+	}
 }
