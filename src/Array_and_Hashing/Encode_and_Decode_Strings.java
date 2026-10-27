@@ -45,6 +45,6 @@ public class Encode_and_Decode_Strings {
 	// << Optimal Way -- Length- prefix encoding>>
 
 	public static String encode(List<String> strs){
-		
+		StringBuilder sb = new StringBuilder();
 	}
 }
