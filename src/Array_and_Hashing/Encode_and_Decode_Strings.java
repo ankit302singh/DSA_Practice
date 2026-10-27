@@ -1,5 +1,7 @@
 package Array_and_Hashing;
-import java.util.*; 
+import java.util.*;
+
+import static java.io.File.separator;
 
 public class Encode_and_Decode_Strings {
 	/*
@@ -62,27 +64,35 @@ public class Encode_and_Decode_Strings {
 		while (i < encoded.length()) {
 			int separator = encoded.indexOf('#', i);
 			int length = Integer.parseInt(encoded.substring(i, separator));
+			int start = separator + 1;
+			int end = start + length;
+
+			result.add(encoded.substring(start, end));
+
+			i = end;
 		}
-		int start = separator + 1;
-		int end = start + length;
-
-		result.add(encoded.substring(start, end));
-
-		i = end;
+		return result;
 	}
-	return result;
-}
-public static void main(String[] args){
-	Scanner sc = new Scanner(System.in);
-	System.out.print("Enter number of string: ");
-	int n = Integer.parseInt(sc.nextLine());
 
-	List<String> strs = new ArrayList<>();
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter number of string: ");
+		int n = Integer.parseInt(sc.nextLine());
 
-	System.out.println("Enter Strings: ");
+		List<String> strs = new ArrayList<>();
 
-	for(int i = 0; i < n; i++){
-		strs.add(sc.nextLine());
+		System.out.println("Enter Strings: ");
+
+		for (int i = 0; i < n; i++) {
+			strs.add(sc.nextLine());
+		}
+		String encoded = encode(strs);
+		System.out.println("Encoded String: " + encoded);
+
+		List<String> decoded = decode(encoded);
+		System.out.println("Decoded Strings: " + decoded);
+
+		sc.close();
 	}
 }
 
