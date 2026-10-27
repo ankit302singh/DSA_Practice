@@ -77,6 +77,12 @@ public static void main(String[] args){
 	System.out.print("Enter number of string: ");
 	int n = Integer.parseInt(sc.nextLine());
 
-	
+	List<String> strs = new ArrayList<>();
+
+	System.out.println("Enter Strings: ");
+
+	for(int i = 0; i < n; i++){
+		strs.add(sc.nextLine());
+	}
 }
 
