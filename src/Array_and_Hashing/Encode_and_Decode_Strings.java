@@ -74,6 +74,9 @@ public class Encode_and_Decode_Strings {
 }
 public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter number of string: ");
+	int n = Integer.parseInt(sc.nextLine());
+
 	
 }
 
