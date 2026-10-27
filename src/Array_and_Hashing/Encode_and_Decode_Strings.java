@@ -56,6 +56,11 @@ public class Encode_and_Decode_Strings {
 	}
 	public static List<String> decode(String encoded){
       List<String> result = new ArrayList<>();
-	  int i = 0; 
+	  int i = 0;
+
+	  while(i < encoded.length()){
+		  int separator = encoded.indexOf('#', i);
+		  
+	  }
 	}
 }
