@@ -46,5 +46,12 @@ public class Encode_and_Decode_Strings {
 
 	public static String encode(List<String> strs){
 		StringBuilder sb = new StringBuilder();
+
+		for(String str : strs){
+			sb.append(str.length());
+			sb.append("#");
+			sb.append(str);
+		}
+		return sb.toString();
 	}
 }
